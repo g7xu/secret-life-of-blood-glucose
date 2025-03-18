@@ -1073,11 +1073,10 @@ input[type="range"]::-webkit-slider-thumb:hover {
 #vertical-text {
     writing-mode: vertical-rl;
     transform: rotate(180deg); 
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     color: var(--color-blue);
     margin-right: 10px; 
 }
-
 
 .range-slider{
   margin: 0;
