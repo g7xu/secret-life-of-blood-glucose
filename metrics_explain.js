@@ -15,12 +15,21 @@ const dataFiles = {
 // Function to fetch data
 async function fetchData() {
     try {
-        console.log("Fetching data...");
+        console.log("Fetching data from:", dataFiles);
 
         const [bioData, cgmData, mealData] = await Promise.all([
-            d3.json(dataFiles.bioData),
-            d3.json(dataFiles.cgmData),
-            d3.json(dataFiles.mealData)
+            d3.json(dataFiles.bioData).catch(error => {
+                console.error('Error loading bioData:', error);
+                throw error;
+            }),
+            d3.json(dataFiles.cgmData).catch(error => {
+                console.error('Error loading cgmData:', error);
+                throw error;
+            }),
+            d3.json(dataFiles.mealData).catch(error => {
+                console.error('Error loading mealData:', error);
+                throw error;
+            })
         ]);
 
         // Filter for non-diabetic participants only
@@ -110,14 +119,6 @@ function plotData(nonDiabeticParticipants, cgmData, mealData) {
                 return d < 12 ? `${d}AM` : `${d - 12}PM`;
             }));
 
-    // Add title for the entire visualization
-    svg.append("text")
-        .attr("x", svgWidth / 2)
-        .attr("y", -30)
-        .attr("text-anchor", "middle")
-        .style("font-size", "20px")
-        .style("font-weight", "bold")
-        .text("Day 1 Glucose Levels for Non-Diabetic Participants");
 
     // Process and create each participant's plot
     let maxGlucoseValue = 0; // To store the max glucose value across all participants
@@ -159,7 +160,7 @@ function plotData(nonDiabeticParticipants, cgmData, mealData) {
     // Plot the y-axis
     const y = d3.scaleLinear()
         .domain([0, maxGlucoseValue * 1.1]) // Add 10% padding to the max glucose value
-        .range([rowHeight, 0]);
+        .range([svgHeight - margin.top - margin.bottom, 0]);
 
     // Add y-axis to the left side
     svg.append("g")
@@ -338,28 +339,46 @@ function plotData(nonDiabeticParticipants, cgmData, mealData) {
 
     // Add hover effect to the line
     const hoverTextGroup = svg.append("g")
-        .style("display", "none");
+        .style("display", "none")
+        .attr("transform", `translate(${margin.left + 20}, ${margin.top + 20})`);
 
     const hoverTextBackground = hoverTextGroup.append("rect")
         .attr("id", "hover-text-background")
-        .attr("x", 5)
-        .attr("y", svgHeight - margin.bottom - 135)
-        .attr("width", 250)
-        .attr("height", 70)
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", 300)
+        .attr("height", 120)
         .attr("fill", "black")
-        .attr("opacity", 0.7) // Make the background more transparent
-        .attr("rx", 10) // Add rounded corners
-        .attr("ry", 10); // Add rounded corners
+        .attr("opacity", 0.7)
+        .attr("rx", 10)
+        .attr("ry", 10);
 
-    const hoverText = hoverTextGroup.append("text")
-        .attr("id", "hover-text")
-        .attr("x", 10)
-        .attr("y", svgHeight - margin.bottom - 120)
-        .attr("text-anchor", "start")
+    const textContainer1 = hoverTextGroup.append("g")
+        .attr("class", "paragragh");
+
+    textContainer1.append("text")
+        .attr("class", "y-section-header")
+        .attr("x", 15)
+        .attr("y", 30)
         .attr("fill", "white")
-        .style("font-size", "16px")
-        .attr("class", "hover-text")
-        .text("Glucose Excursion:\n the maximum glucose level after breakfast");
+        .style("font-size", "20px")
+        .text("Glucose Excursion Time");
+
+    const detailsText1 = textContainer1.append("text")
+        .attr("class", "details")
+        .attr("x", 15)
+        .attr("y", 60)
+        .attr("fill", "white")
+        .style("font-size", "16px");
+
+    detailsText1.append("tspan")
+        .attr("x", 15)
+        .text("The time it takes to reach");
+
+    detailsText1.append("tspan")
+        .attr("x", 15)
+        .attr("dy", "1.4em")
+        .text("the maximum glucose level after meal");
 
     // Add event listeners for hover effect with increased hover area
     svg.selectAll(".hover-line-ge")
@@ -446,28 +465,46 @@ function plotData(nonDiabeticParticipants, cgmData, mealData) {
 
         // Creating new hover text group
         const hoverTextGroupRecovery = svg.append("g")
-            .style("display", "none");
+            .style("display", "none")
+            .attr("transform", `translate(${margin.left + 20}, ${margin.top + 20})`);
 
         const hoverTextBackgroundRecovery = hoverTextGroupRecovery.append("rect")
             .attr("id", "hover-text-background-recovery")
-            .attr("x", 5)
-            .attr("y", svgHeight - margin.bottom - 135)
-            .attr("width", 250)
-            .attr("height", 70)
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 300)
+            .attr("height", 120)
             .attr("fill", "black")
             .attr("opacity", 0.7) // Make the background more transparent
             .attr("rx", 10) // Add rounded corners
             .attr("ry", 10); // Add rounded corners
 
-        const hoverTextRecovery = hoverTextGroupRecovery.append("text")
-            .attr("id", "hover-text-recovery")
-            .attr("x", 10)
-            .attr("y", svgHeight - margin.bottom - 120)
-            .attr("text-anchor", "start")
+        const textContainer2 = hoverTextGroupRecovery.append("g")
+            .attr("class", "paragragh");
+
+        textContainer2.append("text")
+            .attr("class", "y-section-header")
+            .attr("x", 15)
+            .attr("y", 30)
             .attr("fill", "white")
-            .style("font-size", "16px")
-            .attr("class", "hover-text")
-            .text("Glucose Recovery:\n the glucose level return to the baseline level after breakfast");
+            .style("font-size", "20px")
+            .text("Glucose Recovery");
+
+        const detailsText2 = textContainer2.append("text")
+            .attr("class", "details")
+            .attr("x", 15)
+            .attr("y", 60)
+            .attr("fill", "white")
+            .style("font-size", "16px");
+
+        detailsText2.append("tspan")
+            .attr("x", 15)
+            .text("The time it takes to return");
+
+        detailsText2.append("tspan")
+            .attr("x", 15)
+            .attr("dy", "1.4em")
+            .text("to original glucose level");
 
         // Add event listeners for hover effect
         svg.selectAll(".hover-line-gr")
@@ -544,30 +581,52 @@ function plotData(nonDiabeticParticipants, cgmData, mealData) {
 
     // Creating new hover text group for excursion
     const hoverTextGroupExcursion = svg.append("g")
-        .style("display", "none");
+        .style("display", "none")
+        .attr("transform", `translate(${margin.left + 20}, ${margin.top + 20})`); // Fixed position near top-left
 
     const hoverTextBackgroundExcursion = hoverTextGroupExcursion.append("rect")
         .attr("id", "hover-text-background-excursion")
-        .attr("x", 5)
-        .attr("y", svgHeight - margin.bottom - 135)
-        .attr("width", 250)
-        .attr("height", 70)
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", 300) // Increased width
+        .attr("height", 120) // Increased height
         .attr("fill", "black")
-        .attr("opacity", 0.7) // Make the background more transparent
-        .attr("rx", 10) // Add rounded corners
-        .attr("ry", 10); // Add rounded corners
+        .attr("opacity", 0.7)
+        .attr("rx", 10)
+        .attr("ry", 10);
 
-    const hoverTextExcursion = hoverTextGroupExcursion.append("text")
-        .attr("id", "hover-text-excursion")
-        .attr("x", 10)
-        .attr("y", svgHeight - margin.bottom - 120)
-        .attr("text-anchor", "start")
+    // Create a container for the text content
+    const textContainer = hoverTextGroupExcursion.append("g")
+        .attr("class", "paragragh");
+
+    // Add header
+    textContainer.append("text")
+        .attr("class", "y-section-header")
+        .attr("x", 15)
+        .attr("y", 30)
         .attr("fill", "white")
-        .style("font-size", "16px")
-        .attr("class", "hover-text")
-        .text("Glucose Excursion:\n the maximum glucose level after breakfast");
+        .style("font-size", "20px") // Increased font size
+        .text("Glucose Excursion");
 
-    // Add event listeners for hover effect with increased hover area
+    // Add details text with proper formatting
+    const detailsText = textContainer.append("text")
+        .attr("class", "details")
+        .attr("x", 15)
+        .attr("y", 60)
+        .attr("fill", "white")
+        .style("font-size", "16px"); // Increased font size
+
+    // Add text content with line breaks
+    detailsText.append("tspan")
+        .attr("x", 15)
+        .text("The maximum glucose level");
+
+    detailsText.append("tspan")
+        .attr("x", 15)
+        .attr("dy", "1.4em") // Increased line spacing
+        .text("reached after having a meal");
+
+    // Modify the mouseover event to keep the text box in fixed position
     svg.selectAll(".hover-line-ex")
         .on("mouseover", function() {
             d3.select(this).attr("stroke-width", 4);
@@ -576,39 +635,7 @@ function plotData(nonDiabeticParticipants, cgmData, mealData) {
         .on("mouseout", function() {
             d3.select(this).attr("stroke-width", 2);
             hoverTextGroupExcursion.style("display", "none");
-        })
-        .on("mousemove", function(event) {
-            const [mouseX, mouseY] = d3.pointer(event);
-            hoverTextGroupExcursion.attr("transform", `translate(${mouseX + 10},${mouseY - 10})`);
         });
-
-    // Add invisible rectangles to increase hover area
-    svg.selectAll(".hover-line-ex")
-        .each(function() {
-            const line = d3.select(this);
-            const x1 = line.attr("x1");
-            const x2 = line.attr("x2");
-            const y1 = line.attr("y1");
-            const y2 = line.attr("y2");
-
-            svg.append("rect")
-                .attr("x", Math.min(x1, x2) - 10)
-                .attr("y", Math.min(y1, y2) - 10)
-                .attr("width", Math.abs(x2 - x1) + 20)
-                .attr("height", Math.abs(y2 - y1) + 20)
-                .attr("fill", "none")
-                .attr("pointer-events", "all")
-                .on("mouseover", function() {
-                    line.dispatch("mouseover");
-                })
-                .on("mouseout", function() {
-                    line.dispatch("mouseout");
-                })
-                .on("mousemove", function(event) {
-                    line.dispatch("mousemove", { detail: event });
-                });
-        });
-
 }
 
 async function main() {
