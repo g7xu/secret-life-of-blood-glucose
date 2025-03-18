@@ -1,5 +1,4 @@
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
-// import { mealDataPromise } from 'index.js'; // adjust relative path if needed
 
 let tooltipDiv = document.createElement("div");
 tooltipDiv.className = "tooltip";
@@ -18,17 +17,7 @@ let activeParticipants = new Set();
 let timeRange = [1440, 14385];
 let data, processedData, xScale, yScale, colorScale;
 let tooltip;
-let mealData;
 
-// mealDataPromise.then(data => {
-//   mealData = data.map(d => ({
-//     Timestamp: d.Timestamp,
-//     glucose: d['Libre GL'],  // Map 'Libre GL' to glucose for consistency
-//     diabetes_level: d['diabetes level'],  // Keep the diabetes level for coloring
-//     time: d.Timestamp.getTime() / 60000,  // Convert to minutes for x-scale
-//     image: d['Image path']
-//   }));
-// });
 
 const diabetic = {
   breakfast: 'assets/pics/d_breakfast.png',
@@ -110,29 +99,6 @@ function createParticipantButtons(participants) {
     }
   });
 }
-
-// Select the checkbox for toggling meal icons
-const mealIconsToggle = document.getElementById("toggle-meal-icons");
-
-// Global state to persist toggle status
-let showMealIcons = mealIconsToggle.checked;
-
-// Function to show or hide meal icons while keeping dots visible
-function toggleMealIcons() {
-    showMealIcons = mealIconsToggle.checked; // Update global state
-
-    d3.selectAll('.meal-time-line, .meal-dot') // Hide dashed line and icons
-      .style('display', showMealIcons ? 'block' : 'none');
-}
-
-// Add event listener to the checkbox to toggle meal icons
-mealIconsToggle.addEventListener("change", toggleMealIcons);
-
-// Ensure meal icons are initially displayed correctly on page load
-document.addEventListener("DOMContentLoaded", () => {
-    toggleMealIcons();
-});
-
 
 function rendering_timeSlider(startDay, endDay) {
   const container = d3.select("#time-range-selector");
@@ -379,6 +345,7 @@ function updateVisualization() {
         .duration(200)
         .style('opacity', .9);
       
+        
       const [mouseX] = d3.pointer(event, this);
       const hoveredTime = xScale.invert(mouseX);
       
@@ -418,7 +385,6 @@ function updateVisualization() {
   g.selectAll('.meal-time-line').remove();
   g.selectAll('.meal-time-dot').remove();
   g.selectAll('.meal-dot').remove();
-
   
 
   filteredData.forEach(participant => {
@@ -429,6 +395,8 @@ function updateVisualization() {
             .attr('class', 'meal-group')
             .attr('transform', `translate(${xScale(d.time)}, ${yScale(d.glucose) * 0.7 - 30})`);
 
+          const isMealIconsVisible = document.getElementById("toggle-meal-icons").checked;
+  
           const line = g.append('line')
             .attr('class', 'meal-time-line')
             .attr('x1', xScale(d.time))
@@ -437,27 +405,28 @@ function updateVisualization() {
             .attr('y2', yScale(d.glucose) * 0.7)
             .attr('stroke', 'gray')
             .attr('stroke-width', 1)
-            .attr('stroke-dasharray', '4,4');
+            .attr('stroke-dasharray', '4,4')
+            .style('opacity', isMealIconsVisible ? 1 : 0); // Respect toggle state
+            
 
           const image = group.append('image')
-            .attr('class', 'meal-dot')
-            .attr('xlink:href', mealIcons[participant.diabetic_level][d.mealType])
-            .attr('width', 20)
-            .attr('height', 20)
-            .attr('x', -10)
-            .attr('y', -10)
-            .style('opacity', 0)
-            .transition()
-            .duration(750)
-            .style('opacity', 1);
-
+              .attr('class', 'meal-dot')
+              .attr('xlink:href', mealIcons[participant.diabetic_level][d.mealType])
+              .attr('width', 20)
+              .attr('height', 20)
+              .attr('x', -10)
+              .attr('y', -10)
+              .style('opacity', isMealIconsVisible ? 1 : 0) // Respect toggle state
+              .transition()
+              .duration(750);
+  
           const dot = g.append('circle')
             .attr('class', 'meal-time-dot')
             .attr('cx', xScale(d.time))
             .attr('cy', yScale(d.glucose))
             .attr('r', 3)
-            .attr('fill', diabeticLevelColorScale(d.diabetic_level));
-
+            .attr('fill', diabeticLevelColorScale(participant.diabetic_level));
+  
           group.append('rect')
             .attr('width', 20)
             .attr('height', yScale(d.glucose) - (yScale(d.glucose) * 0.7 - 30))
@@ -467,30 +436,25 @@ function updateVisualization() {
             .style('pointer-events', 'all')
             .on('mouseover', function (event) {
               const [x, y] = d3.pointer(event, this);
-
-              const imagePath = d.PID < 10
-                    ? `./data/CGMacros/CGMacros-00${d.pid}/${mealData.image}`
-                    : `./data/CGMacros/CGMacros-0${d.pid}/${mealData.image}`;
-
+  
               tooltipDiv.innerHTML = `
                   <strong>Meal Type:</strong> ${d.mealType}<br>
                   <strong>Carbs:</strong> ${d.carbs} g<br>
                   <strong>Protein:</strong> ${d.protein} g<br>
                   <strong>Fat:</strong> ${d.fat} g<br>
                   <strong>Fiber:</strong> ${d.fiber} g<br>
-                  <img src="${imagePath}" alt="Meal Image" width="100" onerror="this.style.display='none'" />
               `;
                 
                 tooltipDiv.style.left = (event.pageX + 10) + "px";
                 tooltipDiv.style.top = (event.pageY + 10) + "px";
                 tooltipDiv.style.display = "block";
-
+  
               line.attr('stroke-width', 3);
               dot.attr('r', 5);
             })
             .on('mouseout', function () {
               tooltipDiv.style.display = "none";
-
+  
               // Revert line and dot to original
               line.attr('stroke-width', 1);
               dot.attr('r', 3);
@@ -518,50 +482,6 @@ function updateVisualization() {
     const mealColorScale = d3.scaleOrdinal()
     .domain(['Non-diabetic', 'Pre-diabetic', 'Diabetic'])
     .range(['#2ecc71', '#f1c40f', '#4059ad']); // Green, Yellow, blue
-
-    const mealCircles = g.selectAll(".meal-circle")
-        .data(mealData.filter(d => d.time >= timeExtent[0] && d.time <= timeExtent[1]));
-
-    mealCircles.exit().remove();
-
-    mealCircles.enter()
-        .append("circle")
-        .attr("class", "meal-circle")
-        .attr("cx", d => xScale(d.time))  // Use the converted time
-        .attr("cy", d => yScale(d.glucose))  // Use the mapped glucose value
-        .attr("r", 5)
-        .style("fill", d => mealColorScale(d.diabetes_level))  // Use diabetes level for color
-        .style("opacity", 0.7)
-        .style("stroke", "white")
-        .style("stroke-width", 1)
-        .on('mouseover', function(event, d) {
-          tooltip.transition()
-            .duration(200)
-            .style('opacity', .9);
-          tooltip.html(`
-            Time: ${d.Timestamp.toLocaleTimeString()}<br>
-            Glucose: ${d.glucose}<br>
-            Type: ${d.diabetes_level}
-          `)
-            .style('left', (event.pageX + 5) + 'px')
-            .style('top', (event.pageY - 28) + 'px');
-        })
-        .on('mousemove', function(event) {
-          tooltip.style('left', (event.pageX + 5) + 'px')
-            .style('top', (event.pageY - 28) + 'px');
-        })
-        .on('mouseout', function() {
-          tooltip.transition()
-            .duration(500)
-            .style('opacity', 0);
-        });
-
-  mealCircles
-      .transition()
-      .duration(750)
-      .attr("cx", d => xScale(d.time))
-      .attr("cy", d => yScale(d.glucose))
-      .style("fill", d => mealColorScale(d.diabetes_level));
 }
 
 // Function to load data from a JSON file
@@ -631,39 +551,72 @@ function plotData(participants) {
   const height = containerHeight - margin.top - margin.bottom;
 
   // Adding a static legend on the top right corner of the line plot
-const legend = svg.append("g")
-.attr("class", "legend")
-.attr("transform", `translate(${width + margin.right - 120}, ${margin.top})`); // Adjust positioning
+  const legendContainer = svg.append("g")
+  .attr("class", "legend-container")
+  .attr("transform", `translate(${width + margin.right - 250}, ${margin.top})`); // Adjust positioning
 
+// === COLOR LEGEND ===
 const legendData = [
-{ label: 'Non-diabetic', color: '#2ecc71' },
-{ label: 'Pre-diabetic', color: '#f1c40f' },
-{ label: 'Diabetic', color: '#4059ad' }
+  { label: 'Non-diabetic', color: '#2ecc71' },
+  { label: 'Pre-diabetic', color: '#f1c40f' },
+  { label: 'Diabetic', color: '#4059ad' }
 ];
 
-// Add color rectangles
-legend.selectAll("rect")
-.data(legendData)
-.enter()
-.append("rect")
-.attr("x", 0)
-.attr("y", (d, i) => i * 25)
-.attr("width", 18)
-.attr("height", 18)
-.style("fill", d => d.color);
+const colorLegend = legendContainer.append("g")
+  .attr("class", "color-legend");
 
-// Add text labels
-legend.selectAll("text")
-.data(legendData)
-.enter()
-.append("text")
-.attr("x", 26)
-.attr("y", (d, i) => i * 25 + 9)
-.attr("dy", ".35em")
-.style("font-size", "20px")
-.style("fill", "#333") // Darker text for contrast
-.text(d => d.label);
+colorLegend.selectAll("rect")
+  .data(legendData)
+  .enter()
+  .append("rect")
+  .attr("x", 0)
+  .attr("y", (d, i) => i * 25)
+  .attr("width", 18)
+  .attr("height", 18)
+  .style("fill", d => d.color);
 
+colorLegend.selectAll("text")
+  .data(legendData)
+  .enter()
+  .append("text")
+  .attr("x", 26)
+  .attr("y", (d, i) => i * 25 + 13)
+  .style("font-size", "14px")
+  .style("fill", "#333")
+  .text(d => d.label);
+
+// === MEAL ICON LEGEND (Placed Right Next to Color Legend) ===
+const mealLegendData = [
+  { type: "breakfast", label: "Breakfast", icon: "assets/pics/breakfast.png" },
+  { type: "lunch", label: "Lunch", icon: "assets/pics/lunch.png" },
+  { type: "dinner", label: "Dinner", icon: "assets/pics/dinner.png" },
+  { type: "snack", label: "Snack", icon: "assets/pics/snack.png" }
+];
+
+// Position meal legend next to color legend
+const mealLegend = legendContainer.append("g")
+  .attr("class", "meal-legend")
+  .attr("transform", `translate(150, 0)`); // Move meal legend to the right
+
+mealLegend.selectAll("image")
+  .data(mealLegendData)
+  .enter()
+  .append("image")
+  .attr("xlink:href", d => d.icon)
+  .attr("x", 0)
+  .attr("y", (d, i) => i * 25)
+  .attr("width", 18)
+  .attr("height", 18);
+
+mealLegend.selectAll("text")
+  .data(mealLegendData)
+  .enter()
+  .append("text")
+  .attr("x", 26)
+  .attr("y", (d, i) => i * 25 + 13)
+  .style("font-size", "14px")
+  .style("fill", "#333")
+  .text(d => d.label);
 
   const timeExtent = [
     d3.min(processedData, d => d3.min(d.values, v => v.time)),
@@ -716,5 +669,20 @@ window.addEventListener('resize', () => {
   rendering_timeSlider(startDay, endDay); // Re-render the slider with the current positions
 });
 
+
 // Initial call to load data and plot it
 loadDataAndPlot();
+
+document.getElementById("toggle-meal-icons").addEventListener("change", function() {
+  const isChecked = this.checked;
+
+  d3.selectAll(".meal-dot")
+      .transition()
+      .duration(300)
+      .style("opacity", isChecked ? 1 : 0);
+
+  d3.selectAll(".meal-time-line")
+      .transition()
+      .duration(300)
+      .style("opacity", isChecked ? 1 : 0);
+});

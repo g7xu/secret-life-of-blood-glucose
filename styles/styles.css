@@ -310,7 +310,7 @@ progress::-moz-progress-bar {
 /* Panel Styles */
 
 #panel-2 {
-  height: 90vh;
+  height: 100vh;
   overflow: hidden; /* Prevents content overflow */
   margin: auto;
   h3{
@@ -420,11 +420,12 @@ progress::-moz-progress-bar {
 
 #panel-2-flex-container .control-panel-wrapper {
   flex: 0 0 30%;
+  margin-top: 2%;
   margin-left: 5%;
   height: 80vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 #panel-2-flex-container .visualization-wrapper {
@@ -1088,6 +1089,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
 .main-svg{
   height: 85%;
+  cursor: pointer;
 }
 
 /* Center the quiz section */
@@ -1263,6 +1265,30 @@ button:disabled {
   text-align: center;
 
 }
+#instruction{
+  margin-top: 10%;
+  .section-header{
+    color: white;
+  }
+  .description{
+    background-color: var(--color-blue);
+  }
+}
+
+#context{
+  margin-top:10%;
+  font-size: 1rem;
+  font-weight: 600;;
+  width:100%;
+  text-align: center;
+  color: var(--color-blue);
+}
+
+#ui{
+  width: 80%;
+}
 #conclude{
   width: 100%;
+  font-size: medium;
+  padding-right: 5%;
 }
