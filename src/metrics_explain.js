@@ -5,17 +5,23 @@ const margin = { top: 50, right: 50, bottom: 50, left: 100 };
 const rowHeight = 500; // Height for each individual row
 const plotGap = 20; // Gap between plots
 
+// Data structure to hold our data
+const dataFiles = {
+    bioData: '../assets/vis_data/bio.json',
+    cgmData: '../assets/vis_data/CGMacros.json',
+    mealData: '../assets/vis_data/meal_data.json'
+};
+
+// Function to fetch data
 async function fetchData() {
     try {
         console.log("Fetching data...");
-        
-        let [bioData, cgmData, mealData] = await Promise.all([
-            d3.json('../assets/vis_data/bio.json'),
-            d3.json('../assets/vis_data/CGMacros.json'),
-            d3.json('../assets/vis_data/meal_data.json')
+
+        const [bioData, cgmData, mealData] = await Promise.all([
+            d3.json(dataFiles.bioData),
+            d3.json(dataFiles.cgmData),
+            d3.json(dataFiles.mealData)
         ]);
-
-
 
         // Filter for non-diabetic participants only
         const nonDiabeticParticipants = bioData.filter(p => p["diabetes level"] === "Non-diabetic");

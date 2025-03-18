@@ -159,32 +159,32 @@ function updateVisualization() {
   });
   
   // Add legend
-  const legend = svg.append('g')
-    .attr('class', 'legend')
-    .attr('transform', `translate(${width - 120}, 20)`);
+  // const legend = svg.append('g')
+  //   .attr('class', 'legend')
+  //   .attr('transform', `translate(${width - 120}, 20)`);
     
-  const legendData = Object.entries(activeGroups)
-    .filter(([_, isActive]) => isActive)
-    .map(([group]) => group);
+  // const legendData = Object.entries(activeGroups)
+  //   .filter(([_, isActive]) => isActive)
+  //   .map(([group]) => group);
     
-  const legendItems = legend.selectAll('.legend-item')
-    .data(legendData)
-    .enter()
-    .append('g')
-    .attr('class', 'legend-item')
-    .attr('transform', (d, i) => `translate(0, ${i * 25})`); // Increased spacing between items to 25px
+  // const legendItems = legend.selectAll('.legend-item')
+  //   .data(legendData)
+  //   .enter()
+  //   .append('g')
+  //   .attr('class', 'legend-item')
+  //   .attr('transform', (d, i) => `translate(0, ${i * 25})`); // Increased spacing between items to 25px
     
-  legendItems.append('rect')
-    .attr('width', 15)
-    .attr('height', 15)
-    .attr('class', d => d)
-    .attr('fill-opacity', 0.3);
+  // legendItems.append('rect')
+  //   .attr('width', 15)
+  //   .attr('height', 15)
+  //   .attr('class', d => d)
+  //   .attr('fill-opacity', 0.3);
     
-  legendItems.append('text')
-    .attr('x', 25) // Increased spacing between rect and text
-    .attr('y', 12)
-    .style('font-family', '"DM Serif Text", serif')
-    .text(d => d.charAt(0).toUpperCase() + d.slice(1));
+  // legendItems.append('text')
+  //   .attr('x', 25) // Increased spacing between rect and text
+  //   .attr('y', 12)
+  //   .style('font-family', '"DM Serif Text", serif')
+  //   .text(d => d.charAt(0).toUpperCase() + d.slice(1));
 }
 
 // Add event listeners
