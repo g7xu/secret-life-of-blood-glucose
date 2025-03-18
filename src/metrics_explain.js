@@ -7,9 +7,9 @@ const plotGap = 20; // Gap between plots
 
 // Data structure to hold our data
 const dataFiles = {
-    bioData: '../assets/vis_data/bio.json',
-    cgmData: '../assets/vis_data/CGMacros.json',
-    mealData: '../assets/vis_data/meal_data.json'
+    bioData: 'assets/vis_data/bio.json',
+    cgmData: 'assets/vis_data/CGMacros.json',
+    mealData: 'assets/vis_data/meal_data.json'
 };
 
 // Function to fetch data
