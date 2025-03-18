@@ -110,14 +110,6 @@ function plotData(nonDiabeticParticipants, cgmData, mealData) {
                 return d < 12 ? `${d}AM` : `${d - 12}PM`;
             }));
 
-    // Add title for the entire visualization
-    svg.append("text")
-        .attr("x", svgWidth / 2)
-        .attr("y", -30)
-        .attr("text-anchor", "middle")
-        .style("font-size", "20px")
-        .style("font-weight", "bold")
-        .text("Day 1 Glucose Levels for Non-Diabetic Participants");
 
     // Process and create each participant's plot
     let maxGlucoseValue = 0; // To store the max glucose value across all participants
