@@ -10,6 +10,19 @@ tooltipDiv.style.zIndex = "1000";
 tooltipDiv.style.display = "none";
 document.body.appendChild(tooltipDiv);
 
+// 1. First, make sure the mealInfoBox styling has proper color and opacity
+let mealInfoBox = d3.select("body").append("div")
+    .attr("class", "meal-info-box")
+    .style("position", "fixed")  // Change to fixed positioning
+    .style("display", "none")
+    .style("background", "rgba(0, 0, 0, 0.8)")  // Use rgba for proper opacity
+    .style("color", "white")
+    .style("border-radius", "10px")
+    .style("padding", "15px")
+    .style("width", "300px")
+    .style("pointer-events", "none")
+    .style("z-index", "1000");
+
 const mealFrequencySection = document.querySelector("#meal_frequency .container");
 const selectContainer = document.querySelector("#select");
 
@@ -25,11 +38,7 @@ mealTypes.forEach(type => {
     mealDropdown.appendChild(option);
 });
 
-const resetZoomButton = document.createElement("button");
-resetZoomButton.textContent = "Reset Zoom";
-
 selectContainer.appendChild(mealDropdown);
-selectContainer.appendChild(resetZoomButton);
 
 function getColorForGroup(group) {
     const colors = {
@@ -40,15 +49,21 @@ function getColorForGroup(group) {
     return colors[group] || "#000000"; // Default to black if no match
 }
 
-d3.json("./assets/vis_data/meal_data_photos.json").then(data => {
+d3.json("assets/vis_data/meal_data.json").then(data => {
     const parseTime = d3.timeParse("%d days %H:%M:%S");
 
     data.forEach(d => {
         d.Timestamp = parseTime(d.Timestamp);
+        // Add 1 day to each timestamp
+        d.Timestamp = new Date(d.Timestamp.getTime() + 24 * 60 * 60 * 1000);
     });
 
-    const minTime = d3.min(data, d => d.Timestamp);
-    const maxTime = new Date(minTime.getTime() + 10 * 24 * 60 * 60 * 1000);
+    // Set minTime to start of day 1 and maxTime to end of day 10
+    const minTime = new Date(data[0].Timestamp);
+    minTime.setHours(0, 0, 0, 0);  // Set to start of day
+    const maxTime = new Date(minTime);
+    maxTime.setDate(maxTime.getDate() + 9);  // Add 9 days to get to end of day 10
+    maxTime.setHours(23, 59, 59, 999);  // Set to end of day
 
     const width = 700, height = 100;
     const margin = {top: 30, right: 30, bottom: 50, left: 50};
@@ -150,22 +165,6 @@ d3.json("./assets/vis_data/meal_data_photos.json").then(data => {
             .attr("font-size", "16px")
             .attr("font-weight", "bold")
             .text(title);
-
-        const zoom = d3.zoom()
-            .scaleExtent([1, 10])
-            .on("zoom", function(event) {
-                const newX = event.transform.rescaleX(xScale);
-                svg.select(".x-axis")
-                    .call(d3.axisBottom(newX)
-                        .ticks(d3.timeDay.every(1))
-                        .tickFormat((d, i) => `Day ${i + 1}`));
-
-                svg.selectAll("line")
-                    .attr("x1", d => newX(d.Timestamp))
-                    .attr("x2", d => newX(d.Timestamp));
-            });
-
-        svg.call(zoom);
     }
 
     // createGraph(data.filter(d => d['diabetes level'] === 'Non-diabetic'), "graph-nondiabetic", "Non-Diabetic Group");
@@ -184,9 +183,72 @@ d3.json("./assets/vis_data/meal_data_photos.json").then(data => {
         createGraph(filteredData.filter(d => d['diabetes level'] === 'Diabetic'), "graph-diabetic", "Diabetic Group");
     }
 
-    mealDropdown.addEventListener("change", updateGraphs);
+    // 2. Modify the event listener to properly handle the meal selection
+    mealDropdown.addEventListener("change", function(event) {
+        const selectedMeal = event.target.value;
+        if (selectedMeal !== "All") {
+            const mealInfo = {
+                "Breakfast": {
+                    title: "Protein Shake",
+                    details: [
+                        "Identical protein shake for all participants",
+                        "Controlled morning meal to establish baseline",
+                    ]
+                },
+                "Lunch": {
+                    title: "Chipotle Meal",
+                    details: [
+                        "Standardized Chipotle meal for all participants",
+                        "Controlled portions and ingredients",
+                    ]
+                },
+                "Dinner": {
+                    title: "Evening Meal",
+                    details: [
+                        "Participants' own choice of dinner",
+                        "Varied meal compositions",
+                    ]
+                },
+                "Snack": {
+                    title: "🤔 You might have already noticed",
+                    details: [
+                        "Participants with diabetes don't eat snacks very often",
+                        "It seems like their eating habits not rigid with fixed meal times"
+                    ]
+                }
+            };
+
+            const info = mealInfo[selectedMeal];
+            
+            // Position the box near the dropdown
+            const dropdownRect = mealDropdown.getBoundingClientRect();
+            
+            mealInfoBox
+                .html(`
+                    <div>
+                        <div style="font-size: 20px; margin-bottom: 10px;">${info.title}</div>
+                        <div style="font-size: 16px;">
+                            ${info.details.map(detail => `<div style="margin: 5px 0;">${detail}</div>`).join('')}
+                        </div>
+                    </div>
+                `)
+                .style("display", "block")
+                .style("left", `${dropdownRect.right + 10}px`)
+                .style("top", `${dropdownRect.top}px`);
+        } else {
+            mealInfoBox.style("display", "none");
+        }
+        
+        updateGraphs();
+    });
+
     updateGraphs();
 
-    resetZoomButton.onclick = () => updateGraphs();
-
 }).catch(error => console.error("Error loading the JSON data:", error));
+
+// Add event listener to hide the box when clicking elsewhere
+document.addEventListener("click", function(event) {
+    if (event.target !== mealDropdown) {
+        mealInfoBox.style("display", "none");
+    }
+});

@@ -40,7 +40,7 @@ function getColorForGroup(group) {
     return colors[group] || "#000000"; // Default to black if no match
 }
 
-d3.json("./assets/vis_data/meal_data_photos.json").then(data => {
+d3.json("assets/vis_data/meal_data.json").then(data => {
     const parseTime = d3.timeParse("%d days %H:%M:%S");
 
     data.forEach(d => {
