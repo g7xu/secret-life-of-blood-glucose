@@ -15,7 +15,7 @@
     <script src="rolling_glucose.js" type="module"></script>
     <script src="quiz.js" type="module"></script>
     <script src="metrics_explain.js" type="module"></script>
-    <!-- <script src="meals.js" type="module"></script> -->
+    <script src="meals.js" type="module"></script>
 
     <!-- scrolling trigger animations -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
@@ -178,20 +178,28 @@
                 </div>
             </section>
 
-            <!-- <section id="meal_frequency" class="full-screen">
+            <section id="meal_frequency" class="full-screen">
                 <div class="container">
                     <div id="select" class="dropdown"></div>
                     <div id="graph-nondiabetic" class="graph-container"></div>
                     <div id="graph-prediabetic" class="graph-container"></div>
                     <div id="graph-diabetic" class="graph-container"></div>
                 </div>
-            </section> -->
+            </section>
+
+            <section class="roll" style="margin-top: 0;">
+                <div class="description">
+                    <h1 style="text-align: center; font-size: 2em; color: #1a1a1a; font-weight: 600;">
+                        Should We Avoid Fixed Eating Schedules to Stay Healthy?
+                    </h1>
+                </div>
+            </section>
 
             <section class="roll">
-            <div id = "intro-roll" class="description">
-                <p> This visualization shows glucose level changes over time for 15 participants, highlighting fluctuations across diabetic groups through a moving dot. </p>
-            </div>
-        </section>
+                <div id="intro-roll" class="description">
+                    <p>The reality is quite different - people with diabetes often follow rigorous eating schedules because their meals need to be carefully controlled. This is necessary because their bodies struggle to regulate glucose naturally. The following visualization shows glucose level changes over time for 15 participants, highlighting fluctuations across diabetic groups through a moving dot.</p>
+                </div>
+            </section>
 
             <section id="rollig_glu_dot" class="full-screen">
                 <div class="chart-container">
@@ -210,6 +218,8 @@
                 </div>
             </section>
 
+
+
             <section class="roll" style="margin-top: 0;">
                 <div class="description">
                     <p>The blood glucose trend can be compared to surfing on a wave—while non-diabetic individuals experience a relatively calm and predictable ride, pre-diabetic individuals encounter a bit more excitement with occasional swells.
@@ -217,20 +227,37 @@
                 </div>
             </section>
 
-
-            <section id="glu_metrics_explain">
-                How we manage to measure variance in glucose levels?
-                <div id="explain_graph"></div>
-            </section>
-
-            <!-- <section class="roll" style="margin-top: 0;">
+            <section class="roll" style="margin-top: 0;">
                 <div class="description">
                     <p>The blood glucose trend can be compared to surfing on a wave—while non-diabetic individuals experience a relatively calm and predictable ride, pre-diabetic individuals encounter a bit more excitement with occasional swells.
                          In contrast, diabetic individuals face a wild and unpredictable journey, with extreme fluctuations resembling the chaos of stormy waves.</p>
+                    <h2 style="text-align: center; margin-top: 30px; font-size: 1.5em; color: #1a1a1a; font-weight: 600;">But, is there a systematic way for me to visualize and compare the unstability of glucose among participants with different diabetic status?</h2>
                 </div>
-            </section> -->
+            </section>
 
-            
+            <section id="glu_metrics_explain">
+                <h2 class="section-header">How we measure glucose variance?</h2>
+                <div id="explain_graph"></div>
+            </section>
+
+            <section class="roll analysis-section">
+                <div class="description">
+                    <h2 class="section-header">Controlled Meal Analysis</h2>
+                    <p style="color: black;">In our study, participants followed a controlled meal schedule:</p>
+                    <ul class="meal-list details" style="list-style-type: none; padding: 0; margin: 5px 0;">
+                        <li>• Identical protein shake for breakfast</li>
+                        <li>• Standardized Chipotle meal for lunch</li>
+                    </ul>
+                    <p style="color: black;">This controlled environment allows us to analyze three key metrics:</p>
+                    <ul class="metrics-list details" style="list-style-type: none; padding: 0; margin: 5px 0;">
+                        <li>• Glucose excursion (spike height after meals)</li>
+                        <li>• Peak time (duration until maximum glucose)</li>
+                        <li>• Recovery duration (time to return to baseline)</li>
+                    </ul>
+                    <p style="color: black;">These measurements help us understand how different diabetic conditions affect glucose regulation.</p>
+                </div>
+            </section>
+
             <section id="panel-4">
                 <div class="container">
                     <div class="row">
