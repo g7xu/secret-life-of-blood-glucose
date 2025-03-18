@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP ScrollTrigger Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 200vh; /* Ensure we can scroll */
+            padding: 50px;
+            background-color: #f5f5f5;
+        }
+        .section {
+            width: 80%;
+            margin: 50px auto;
+            padding: 50px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0; /* Initially hidden */
+            transition: opacity 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">Scroll down to see me fade in!</div>
+    <div class="section">Another section!</div>
+    <div class="section">Keep scrolling...</div>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        document.querySelectorAll(".section").forEach(section => {
+            ScrollTrigger.create({
+                trigger: section,
+                start: "top 80%",  // When 80% of the section is in view, trigger animation
+                end: "top 30%",    // Animation is fully complete when reaching 30% of viewport
+                scrub: true,       // Smooth transition effect
+                toggleActions: "restart none reverse none", // Restart on enter, reverse on leave
+                onEnter: () => gsap.to(section, { opacity: 1, duration: 0.8, ease: "power2.out" }),
+                onLeave: () => gsap.to(section, { opacity: 0.5, duration: 0.8, ease: "power2.out" }),
+                onEnterBack: () => gsap.to(section, { opacity: 1, duration: 0.8, ease: "power2.out" }),
+                onLeaveBack: () => gsap.to(section, { opacity: 0, duration: 0.8, ease: "power2.out" })
+            });
+        });
+    </script>
+
+</body>
+</html>

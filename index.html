@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secret Life of Blood Glucose</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/pics/bread.png">
+
+    <script type="module" src="src/global.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="src/longRun.js" type="module"></script>
+    <script src="src/distribution.js" type="module"></script>
+    <script src="src/rolling_glucose.js" type="module"></script>
+    <script src="src/quiz.js" type="module"></script>
+    <script src="src/metrics_explain.js" type="module"></script>
+    <script src="src/meals.js" type="module"></script>
+
+    <!-- scrolling trigger animations -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
+
+     <script src="src/scrolling_animation.js" type="module"></script>
+</head>
+<body>
+    <div id="page" class="site">
+        <header id="masthead" class="site-header" role="banner">
+            <nav class="navbar">
+                <div class="nav-links">
+                    <a href="#intro" id="home" class="anchor">
+                        Secret Life of Blood Glucose
+                    </a>
+                </div>
+                <div class="progress-container">
+                    <progress id="scroll-progress" max="100" value="0"></progress>
+                </div>
+            </nav>
+        </header>
+    <div class="scroll-indicator"></div>
+
+            <section id="intro" class="full-screen">
+                <div class="mat">
+                    <img class="fork" src="assets/pics/fork.png" alt="fork">
+                    <div class="plate">
+                        <div class="text">Secret <br> Life of <br> Blood <br> Glucose</div>
+                    </div>
+                    <img class="knife" src="assets/pics/knife.png" alt="knife">
+                </div>
+                <img  class="scroll-indicator" src="assets/pics/down.png">
+            </section>
+
+            <section class="full-screen" id="question">
+                <div class="dot"></div>
+                <p id="title">What is Diabetes <span>?</span></p>
+                
+            </section>
+
+            <section id="diabeties_description" class="full-screen">
+                <div class="paragraph">
+                    <h1 class = "highlight" >Diabetes
+                        <span id="typing-text" class="info"></span> <!-- Empty span for typing effect --> </h1>
+                </div>
+                
+            </section>
+            
+
+            <section class = "full-screen">
+                <div class="description">
+                    <p style="text-align: left;">Your body converts food into glucose, which enters the bloodstream. 
+                        The pancreas releases insulin to help cells absorb glucose for energy. 
+                        In diabetes, the body either lacks insulin or doesn’t use it properly, causing high blood sugar. 
+                        Over time, this can lead to serious health issues like heart disease, vision loss, and kidney disease.</p>
+                </div>
+            </section>
+
+            
+            <section id="hook">
+                <div class="stats-container">
+                    <p style="margin: 0; padding: 0;"> Accroding to Centers for Disease Control and Prevention,</p>
+                    <div class="stat">
+                        <h1 class="highlight">
+                            <span class="count" data-target="11.6">0</span>% 
+                            <span class="info">of the US population have</span>
+                            <span class="subtitle">diabetes.</span>
+                        </h1>
+                    </div>
+            
+                    <div class="stat">
+                        <h1 class="highlight">
+                            Over <span class="count" data-target="38.0">0</span>% 
+                            <span class="info">of adults have</span>
+                            <span class="subtitle">prediabetes.</span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+            <section class = "full-screen">
+                <div id = "compare" class="description">
+                    <p>
+                        Prediabetes is when blood sugar levels are higher than normal but not high enough to be diagnosed as type 2 diabetes. 
+                        It indicates that the body is becoming resistant to insulin or struggling to regulate blood sugar effectively.
+                    </p>
+                    </div>
+            </section>
+        
+            
+            <section class="page page1">
+                <div class="paragragh">
+                    <h1 class="y-section-header" > Type 2 Diabetes</h1>
+                    <p class="details"> 
+                    More children, teens, and young adults are developing type 2 diabetes than in the past. 
+    
+                    Type 2 diabetes is largely preventable with lifestyle changes like healthy eating, exercise, and weight management.<br><br>
+                    In our dataset, the participants who are in diabetic group are diagnosed with Type 2 Diabetes. 
+                    </p>
+                </div>
+                <button id="goPage2" class="page__button"> Type 1 Diabetes ></button>
+            </section>
+
+            <section class="page page2">
+                <div class="paragragh">
+                <h1 class="section-header"> Type 1 Diabetes</h1>
+                <p class="details"> Type 1 diabetes is an autoimmune disease where the immune system mistakenly attacks the insulin-producing beta cells in the pancreas, leading to little or no insulin production. 
+                    As a result, the body cannot regulate blood sugar levels properly. 
+                    It is usually diagnosed in children, teens, or young adults, but can occur at any age. <br><br>
+                    Unlike type 2 diabetes, it is not preventable and requires lifelong insulin therapy through injections or a pump.
+                </p>
+            </div>
+                <button id="goBack" class="page__button page__button--back"> < Type 2 Diabetes </button>
+            </section>
+              
+              <div id="transition"></div>
+
+            <section id="quiz">
+                <div class="quiz-container">
+                    <h3>Visualize Your Glucose Level</h3>
+
+                    <form id="quiz-form">
+
+                        <div class="quiz-question" data-question="1">
+                            <label for="weight"><div class="hint" id="height-hint">
+                                <p> Enter Your Weight in kg ↓</p>
+                                </div></label>
+                            <input type="number" id="weight" name="weight" required>
+                        </div>
+
+                        <div class="quiz-question" data-question="2" style="display: none;">
+                            <label for="height">
+                                <div class="hint" id="height-hint">
+                                <p> Enter Your Height in cm ↓</p>
+                                </div>
+                            </label>
+                            <input type="number" id="height" name="height" required>
+                        </div>
+
+                        <div class="quiz-question" data-question="3" style="display: none;">
+                            <label for="gender">
+                                <div class="hint" id="height-hint">
+                                    <p> What is Your Gender?</p>
+                                    </div>
+                            </label>
+                            <select id="gender" name="sex" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Prefer Not to Answer</option>
+                            </select>
+                        </div>
+                       
+                        <button type="button" id="next-button" disabled>Next</button>
+                        <button type="submit" style="display: none;">Submit</button>
+                    </form>
+                    <div id="quiz-result"></div>
+                </div>
+            </section>
+
+            <section id="meal_frequency" class="full-screen">
+                <div class="container">
+                    <div id="select" class="dropdown"></div>
+                    <div id="graph-nondiabetic" class="graph-container"></div>
+                    <div id="graph-prediabetic" class="graph-container"></div>
+                    <div id="graph-diabetic" class="graph-container"></div>
+                </div>
+            </section>
+
+            <section id="rollig_glu_dot" class="full-screen">
+                <div class="chart-container">
+                    <div id="non-diabetic-title">Non-Diabetic<div>
+                    <div class="line-category" id="non-diabetic-vis">
+                        <div class="vertical-text">mg/dL</div>
+                    </div>
+                    <div id="pre-diabetic-title">Pre-Diabetic<div>
+                    <div class="line-category" id="pre-diabetic-vis">
+                        <div class="vertical-text">mg/dL</div>
+                    </div>
+                    <div id="diabetic-title">Diabetic<div>
+                    <div class="line-category" id="diabetic-vis">
+                        <div class="vertical-text">mg/dL</div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="glu_metrics_explain">
+
+                <div id="explain_graph"></div>
+                <div id="explain_text"></div>
+            </section>
+
+            
+
+            <section id="panel-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Glucose Metrics Distribution</h2>
+                            <div class="controls-container">
+                                <div class="metric-selector">
+                                    <label>Select Metric:</label>
+                                    <select id="metric-select">
+                                        <option value="glucose-excursion">Glucose Excursion</option>
+                                        <option value="excursion-time">Glucose Excursion Time</option>
+                                        <option value="recovery-time">Glucose Recovery Time</option>
+                                    </select>
+                                </div>
+                                <div class="group-toggles">
+                                    <label>Select Groups:</label>
+                                    <div class="checkbox-group">
+                                        <input type="checkbox" id="diabetic-toggle" checked>
+                                        <label for="diabetic-toggle">Diabetic</label>
+                                        <input type="checkbox" id="prediabetic-toggle" checked>
+                                        <label for="prediabetic-toggle">Pre-diabetic</label>
+                                        <input type="checkbox" id="nondiabetic-toggle" checked>
+                                        <label for="nondiabetic-toggle">Non-diabetic</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="distribution-plot"></div>
+                            <p class="step-description">This visualization shows the distribution of different glucose metrics across diabetic groups. The normal distributions are calculated using the mean and standard deviation of each group's data for glucose metrics. Compare how different metrics vary between diabetic, pre-diabetic, and non-diabetic individuals.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "instruction">
+                <div class="paragragh">
+                    <h1>Instructions</h1>
+                    <p>Use the control panel to explore the glucose patterns of participants with different diabetic statuses. Select a participant category and adjust the time range to view the glucose levels over time. Hover over the visualization to see detailed information about each data point.</p>
+                </div>
+            </section>
+
+            <!-- <section id="panel-2">
+                <div id="tooltip" class="tooltip" style="display: none;"></div>
+                <div id="panel-2-flex-container">
+                    <div class="control-panel-wrapper">
+                        <div class="control-panel">
+                            <div class="control-section">
+                                <div id="participant-selector" class="selector-grid">
+                                    <div class="participant-category" id="Non-diabetic">
+                                        <h3>Non-Diabetic Participants</h3>
+                                        <div class="participant-buttons"></div>
+                                    </div>
+                                    <div class="participant-category" id="Pre-diabetic">
+                                        <h3>Pre-Diabetic Participants</h3>
+                                        <div class="participant-buttons"></div>
+                                    </div>
+                                    <div class="participant-category" id="Diabetic">
+                                        <h3>Diabetic Participants</h3>
+                                        <div class="participant-buttons"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-section">
+                                <h3 id = "slider-text">Time Range</h3>
+                                <div id="time-range-selector" class="time-controls">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visualization-wrapper">
+                        <div class="title-container">
+                            <h3 id="svg-title">Glucose Level Over Time</h3>
+                        
+                            <div class="toggle-container">
+                                <input type="checkbox" id="toggle-meal-icons" checked>
+                                <label for="toggle-meal-icons" class="toggle-label">Meal Icons</label>
+                            </div>
+                        </div>
+                        
+                          
+                        <div id="meal-type-legend" class="legend">
+                            
+                            <div class="legend-items"></div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </section> -->
+
+            <section id="map" class="conclusion">
+                <h1> Takeaway</h1>
+                <div class="paragragh">
+                    <p class="details" id="conclude">Diabetes is a condition where the body struggles to regulate blood glucose (sugar) levels due to problems with insulin production or function. Keeping blood glucose levels stable is crucial to preventing diabetes and maintaining good health.
+                    If you have risk factors like family history, obesity, or prediabetes, get regular blood tests.
+                    Preventing Type 2 diabetes is all about lifestyle choices. By eating well, staying active, maintaining a healthy weight, and managing stress, you can significantly lower your risk.
+                </p>
+                </div>
+            </section>
+</body>
+</html>

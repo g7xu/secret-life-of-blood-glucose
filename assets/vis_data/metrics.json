@@ -1,0 +1,5062 @@
+[
+    {
+        "PID":1.0,
+        "Meal Time":"1 days 06:47:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":88.4,
+        "Time to Peak Glucose":1680000,
+        "Glucose Excursion":27.7333333333,
+        "Glucose Excursion Time":112500000,
+        "Glucose Recovery Time":6180000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"1 days 10:29:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":82.0,
+        "Time to Peak Glucose":1860000,
+        "Glucose Excursion":17.8,
+        "Glucose Excursion Time":126000000,
+        "Glucose Recovery Time":3660000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"1 days 15:06:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":95.1333333333,
+        "Time to Peak Glucose":2340000,
+        "Glucose Excursion":7.2666666667,
+        "Glucose Excursion Time":143100000,
+        "Glucose Recovery Time":4140000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"1 days 18:21:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":94.2666666667,
+        "Time to Peak Glucose":5940000,
+        "Glucose Excursion":4.7333333333,
+        "Glucose Excursion Time":158400000,
+        "Glucose Recovery Time":6840000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"1 days 22:32:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":90.4,
+        "Time to Peak Glucose":4380000,
+        "Glucose Excursion":22.0,
+        "Glucose Excursion Time":171900000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"2 days 07:36:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":86.2666666667,
+        "Time to Peak Glucose":1440000,
+        "Glucose Excursion":18.2666666667,
+        "Glucose Excursion Time":201600000,
+        "Glucose Recovery Time":5040000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"2 days 13:20:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.0,
+        "Time to Peak Glucose":8700000,
+        "Glucose Excursion":11.9333333333,
+        "Glucose Excursion Time":229500000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"2 days 18:31:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":79.6,
+        "Time to Peak Glucose":10740000,
+        "Glucose Excursion":18.2666666667,
+        "Glucose Excursion Time":250200000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"2 days 19:17:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":89.0,
+        "Time to Peak Glucose":8880000,
+        "Glucose Excursion":15.6,
+        "Glucose Excursion Time":251100000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"2 days 20:55:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":97.4,
+        "Time to Peak Glucose":6600000,
+        "Glucose Excursion":9.2,
+        "Glucose Excursion Time":254700000,
+        "Glucose Recovery Time":9300000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"3 days 07:46:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":88.0,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":24.9333333333,
+        "Glucose Excursion Time":288900000,
+        "Glucose Recovery Time":4440000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"3 days 11:28:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":94.4,
+        "Time to Peak Glucose":3720000,
+        "Glucose Excursion":28.8666666667,
+        "Glucose Excursion Time":304200000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"3 days 15:55:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":83.8,
+        "Time to Peak Glucose":1200000,
+        "Glucose Excursion":13.8666666667,
+        "Glucose Excursion Time":317700000,
+        "Glucose Recovery Time":3000000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"3 days 18:11:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":86.6,
+        "Time to Peak Glucose":10140000,
+        "Glucose Excursion":9.4666666667,
+        "Glucose Excursion Time":334800000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"3 days 20:16:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":89.1333333333,
+        "Time to Peak Glucose":8940000,
+        "Glucose Excursion":8.9333333333,
+        "Glucose Excursion Time":341100000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"4 days 07:51:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":90.6666666667,
+        "Time to Peak Glucose":2340000,
+        "Glucose Excursion":11.3333333333,
+        "Glucose Excursion Time":376200000,
+        "Glucose Recovery Time":4140000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"4 days 11:45:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":96.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":387900000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"4 days 19:34:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":76.6666666667,
+        "Time to Peak Glucose":9660000,
+        "Glucose Excursion":29.7333333333,
+        "Glucose Excursion Time":425700000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"4 days 19:47:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":85.6,
+        "Time to Peak Glucose":8880000,
+        "Glucose Excursion":20.8,
+        "Glucose Excursion Time":425700000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"5 days 07:23:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":94.2,
+        "Time to Peak Glucose":1320000,
+        "Glucose Excursion":10.8666666667,
+        "Glucose Excursion Time":459900000,
+        "Glucose Recovery Time":3120000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"5 days 10:54:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":84.6666666667,
+        "Time to Peak Glucose":2160000,
+        "Glucose Excursion":12.8,
+        "Glucose Excursion Time":473400000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"5 days 18:25:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":80.1333333333,
+        "Time to Peak Glucose":2100000,
+        "Glucose Excursion":15.3333333333,
+        "Glucose Excursion Time":500400000,
+        "Glucose Recovery Time":4800000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"5 days 19:27:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":87.2,
+        "Time to Peak Glucose":8280000,
+        "Glucose Excursion":6.2666666667,
+        "Glucose Excursion Time":510300000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"6 days 08:36:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":95.4666666667,
+        "Time to Peak Glucose":2340000,
+        "Glucose Excursion":17.9333333333,
+        "Glucose Excursion Time":551700000,
+        "Glucose Recovery Time":5040000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"6 days 12:41:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":84.2,
+        "Time to Peak Glucose":2940000,
+        "Glucose Excursion":22.2,
+        "Glucose Excursion Time":567000000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"6 days 18:05:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":90.4,
+        "Time to Peak Glucose":10500000,
+        "Glucose Excursion":29.6666666667,
+        "Glucose Excursion Time":594000000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"6 days 20:19:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":85.6666666667,
+        "Time to Peak Glucose":2460000,
+        "Glucose Excursion":34.4,
+        "Glucose Excursion Time":594000000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"7 days 08:27:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":100.6666666667,
+        "Time to Peak Glucose":180000,
+        "Glucose Excursion":5.6,
+        "Glucose Excursion Time":635400000,
+        "Glucose Recovery Time":1980000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"7 days 11:55:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":81.8666666667,
+        "Time to Peak Glucose":7500000,
+        "Glucose Excursion":1.2,
+        "Glucose Excursion Time":655200000,
+        "Glucose Recovery Time":9300000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"7 days 18:45:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":76.5333333333,
+        "Time to Peak Glucose":2700000,
+        "Glucose Excursion":47.8,
+        "Glucose Excursion Time":675000000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"7 days 18:51:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":79.7333333333,
+        "Time to Peak Glucose":2340000,
+        "Glucose Excursion":44.6,
+        "Glucose Excursion Time":675000000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"7 days 20:58:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":107.8,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":680280000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"8 days 08:04:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":91.0,
+        "Time to Peak Glucose":3360000,
+        "Glucose Excursion":26.8666666667,
+        "Glucose Excursion Time":723600000,
+        "Glucose Recovery Time":5160000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"8 days 12:15:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":85.0,
+        "Time to Peak Glucose":1800000,
+        "Glucose Excursion":3.8,
+        "Glucose Excursion Time":737100000,
+        "Glucose Recovery Time":2700000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"8 days 16:55:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":118.4,
+        "Time to Peak Glucose":300000,
+        "Glucose Excursion":1.4476190476,
+        "Glucose Excursion Time":752400000,
+        "Glucose Recovery Time":900000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"8 days 17:10:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":118.1333333333,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":753000000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"9 days 07:56:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":84.0,
+        "Time to Peak Glucose":2040000,
+        "Glucose Excursion":17.2666666667,
+        "Glucose Excursion Time":808200000,
+        "Glucose Recovery Time":6540000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"9 days 11:16:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":77.9333333333,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":21.6666666667,
+        "Glucose Excursion Time":819900000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":1.0,
+        "Meal Time":"9 days 18:28:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":84.8666666667,
+        "Time to Peak Glucose":10020000,
+        "Glucose Excursion":15.2,
+        "Glucose Excursion Time":854100000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"1 days 04:58:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":80.6666666667,
+        "Time to Peak Glucose":4620000,
+        "Glucose Excursion":37.7333333333,
+        "Glucose Excursion Time":108900000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"1 days 09:46:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":74.2666666667,
+        "Time to Peak Glucose":6240000,
+        "Glucose Excursion":45.7333333333,
+        "Glucose Excursion Time":127800000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"1 days 14:22:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":82.8666666667,
+        "Time to Peak Glucose":4980000,
+        "Glucose Excursion":10.3333333333,
+        "Glucose Excursion Time":143100000,
+        "Glucose Recovery Time":6780000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"1 days 17:01:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":78.8666666667,
+        "Time to Peak Glucose":10740000,
+        "Glucose Excursion":5.1333333333,
+        "Glucose Excursion Time":158400000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"2 days 05:10:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":74.2,
+        "Time to Peak Glucose":4800000,
+        "Glucose Excursion":38.0666666667,
+        "Glucose Excursion Time":196200000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"2 days 10:28:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.8666666667,
+        "Time to Peak Glucose":7320000,
+        "Glucose Excursion":8.6666666667,
+        "Glucose Excursion Time":217800000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"2 days 16:22:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":74.0,
+        "Time to Peak Glucose":4980000,
+        "Glucose Excursion":8.5333333333,
+        "Glucose Excursion Time":236700000,
+        "Glucose Recovery Time":7680000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"2 days 18:37:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":70.4,
+        "Time to Peak Glucose":7680000,
+        "Glucose Excursion":61.2,
+        "Glucose Excursion Time":247500000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"3 days 04:30:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":78.9333333333,
+        "Time to Peak Glucose":6300000,
+        "Glucose Excursion":25.6666666667,
+        "Glucose Excursion Time":281700000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"3 days 09:47:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":72.6,
+        "Time to Peak Glucose":7080000,
+        "Glucose Excursion":97.6,
+        "Glucose Excursion Time":301500000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"3 days 17:06:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":55.0666666667,
+        "Time to Peak Glucose":6840000,
+        "Glucose Excursion":52.4,
+        "Glucose Excursion Time":327600000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"4 days 06:30:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":89.7333333333,
+        "Time to Peak Glucose":5400000,
+        "Glucose Excursion":9.6666666667,
+        "Glucose Excursion Time":374400000,
+        "Glucose Recovery Time":7200000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"4 days 11:03:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":89.0,
+        "Time to Peak Glucose":6120000,
+        "Glucose Excursion":4.4666666667,
+        "Glucose Excursion Time":391500000,
+        "Glucose Recovery Time":7920000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"4 days 16:56:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":85.8,
+        "Time to Peak Glucose":5640000,
+        "Glucose Excursion":40.2666666667,
+        "Glucose Excursion Time":412200000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"5 days 07:44:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":85.0,
+        "Time to Peak Glucose":5460000,
+        "Glucose Excursion":19.4666666667,
+        "Glucose Excursion Time":465300000,
+        "Glucose Recovery Time":9060000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"5 days 12:36:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.0,
+        "Time to Peak Glucose":5940000,
+        "Glucose Excursion":52.9333333333,
+        "Glucose Excursion Time":483300000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"5 days 18:46:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":83.8666666667,
+        "Time to Peak Glucose":9840000,
+        "Glucose Excursion":44.0,
+        "Glucose Excursion Time":509400000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"5 days 19:38:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":85.0,
+        "Time to Peak Glucose":10320000,
+        "Glucose Excursion":49.1333333333,
+        "Glucose Excursion Time":513000000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"6 days 07:45:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":93.7333333333,
+        "Time to Peak Glucose":6300000,
+        "Glucose Excursion":24.6,
+        "Glucose Excursion Time":552600000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"6 days 12:47:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":93.0,
+        "Time to Peak Glucose":7080000,
+        "Glucose Excursion":54.4666666667,
+        "Glucose Excursion Time":571500000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"6 days 17:57:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":102.0666666667,
+        "Time to Peak Glucose":10080000,
+        "Glucose Excursion":45.6,
+        "Glucose Excursion Time":593100000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"6 days 18:06:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":100.5333333333,
+        "Time to Peak Glucose":9540000,
+        "Glucose Excursion":47.1333333333,
+        "Glucose Excursion Time":593100000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"7 days 06:48:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":97.6666666667,
+        "Time to Peak Glucose":9720000,
+        "Glucose Excursion":2.4666666667,
+        "Glucose Excursion Time":639000000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"7 days 12:10:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":86.0,
+        "Time to Peak Glucose":6600000,
+        "Glucose Excursion":13.4666666667,
+        "Glucose Excursion Time":655200000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"7 days 15:49:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":87.3333333333,
+        "Time to Peak Glucose":5160000,
+        "Glucose Excursion":21.2666666667,
+        "Glucose Excursion Time":666900000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"7 days 16:38:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":84.4,
+        "Time to Peak Glucose":2220000,
+        "Glucose Excursion":24.2,
+        "Glucose Excursion Time":666900000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"7 days 19:51:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":89.4,
+        "Time to Peak Glucose":5940000,
+        "Glucose Excursion":16.6666666667,
+        "Glucose Excursion Time":682200000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"8 days 06:25:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":98.2666666667,
+        "Time to Peak Glucose":10200000,
+        "Glucose Excursion":37.9333333333,
+        "Glucose Excursion Time":724500000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"8 days 10:32:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":119.8,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":729120000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"8 days 17:59:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":95.0,
+        "Time to Peak Glucose":7260000,
+        "Glucose Excursion":55.3333333333,
+        "Glucose Excursion Time":763200000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"9 days 04:56:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":92.8,
+        "Time to Peak Glucose":4740000,
+        "Glucose Excursion":17.4666666667,
+        "Glucose Excursion Time":800100000,
+        "Glucose Recovery Time":7440000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"9 days 11:28:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":90.2666666667,
+        "Time to Peak Glucose":6420000,
+        "Glucose Excursion":38.0666666667,
+        "Glucose Excursion Time":825300000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"9 days 15:19:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":93.3333333333,
+        "Time to Peak Glucose":5760000,
+        "Glucose Excursion":25.8,
+        "Glucose Excursion Time":838500000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"9 days 16:55:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":119.1333333333,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":838500000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":6.0,
+        "Meal Time":"9 days 18:06:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":103.7333333333,
+        "Time to Peak Glucose":8640000,
+        "Glucose Excursion":8.7333333333,
+        "Glucose Excursion Time":851400000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"1 days 07:24:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":94.3333333333,
+        "Time to Peak Glucose":5760000,
+        "Glucose Excursion":87.4666666667,
+        "Glucose Excursion Time":118800000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"1 days 10:57:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":59.3333333333,
+        "Time to Peak Glucose":8280000,
+        "Glucose Excursion":76.2,
+        "Glucose Excursion Time":134100000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"1 days 18:47:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":84.8,
+        "Time to Peak Glucose":7080000,
+        "Glucose Excursion":46.2666666667,
+        "Glucose Excursion Time":161100000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"2 days 05:59:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":114.0,
+        "Time to Peak Glucose":5460000,
+        "Glucose Excursion":23.4666666667,
+        "Glucose Excursion Time":199800000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"2 days 10:29:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":210540000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"2 days 17:25:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":83.7333333333,
+        "Time to Peak Glucose":6600000,
+        "Glucose Excursion":46.4666666667,
+        "Glucose Excursion Time":242100000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"3 days 06:08:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":101.2,
+        "Time to Peak Glucose":8520000,
+        "Glucose Excursion":54.8,
+        "Glucose Excursion Time":289800000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"3 days 10:24:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":61.6666666667,
+        "Time to Peak Glucose":9360000,
+        "Glucose Excursion":118.0666666667,
+        "Glucose Excursion Time":306000000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"3 days 16:55:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":67.5333333333,
+        "Time to Peak Glucose":9300000,
+        "Glucose Excursion":45.9333333333,
+        "Glucose Excursion Time":329400000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"4 days 06:13:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":100.3333333333,
+        "Time to Peak Glucose":8220000,
+        "Glucose Excursion":21.7333333333,
+        "Glucose Excursion Time":376200000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"4 days 11:48:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":71.8,
+        "Time to Peak Glucose":8820000,
+        "Glucose Excursion":15.2,
+        "Glucose Excursion Time":396900000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"4 days 16:36:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":81.5333333333,
+        "Time to Peak Glucose":10440000,
+        "Glucose Excursion":51.5333333333,
+        "Glucose Excursion Time":415800000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"5 days 07:33:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":95.4666666667,
+        "Time to Peak Glucose":6120000,
+        "Glucose Excursion":29.8666666667,
+        "Glucose Excursion Time":465300000,
+        "Glucose Recovery Time":8820000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"5 days 12:45:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":76.0,
+        "Time to Peak Glucose":8100000,
+        "Glucose Excursion":32.4,
+        "Glucose Excursion Time":486000000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"5 days 18:37:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":104.4666666667,
+        "Time to Peak Glucose":480000,
+        "Glucose Excursion":6.5333333333,
+        "Glucose Excursion Time":499500000,
+        "Glucose Recovery Time":2280000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"6 days 08:04:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":93.6666666667,
+        "Time to Peak Glucose":6060000,
+        "Glucose Excursion":68.2666666667,
+        "Glucose Excursion Time":553500000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"6 days 11:22:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":94.0,
+        "Time to Peak Glucose":10380000,
+        "Glucose Excursion":23.3333333333,
+        "Glucose Excursion Time":569700000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"6 days 18:30:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":84.8,
+        "Time to Peak Glucose":5400000,
+        "Glucose Excursion":47.4,
+        "Glucose Excursion Time":590400000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"7 days 06:20:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":100.2,
+        "Time to Peak Glucose":6900000,
+        "Glucose Excursion":41.3333333333,
+        "Glucose Excursion Time":634500000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"7 days 10:31:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.3333333333,
+        "Time to Peak Glucose":10740000,
+        "Glucose Excursion":8.7333333333,
+        "Glucose Excursion Time":653400000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"7 days 16:53:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":82.4,
+        "Time to Peak Glucose":4920000,
+        "Glucose Excursion":28.3333333333,
+        "Glucose Excursion Time":670500000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"8 days 06:14:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":104.0,
+        "Time to Peak Glucose":8160000,
+        "Glucose Excursion":40.5333333333,
+        "Glucose Excursion Time":721800000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"8 days 10:37:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":56.4666666667,
+        "Time to Peak Glucose":9480000,
+        "Glucose Excursion":50.4666666667,
+        "Glucose Excursion Time":738900000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"8 days 16:00:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":76.2,
+        "Time to Peak Glucose":5400000,
+        "Glucose Excursion":28.7333333333,
+        "Glucose Excursion Time":754200000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"9 days 06:08:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":100.0,
+        "Time to Peak Glucose":5820000,
+        "Glucose Excursion":35.2666666667,
+        "Glucose Excursion Time":805500000,
+        "Glucose Recovery Time":8520000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"9 days 10:21:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":69.5333333333,
+        "Time to Peak Glucose":8640000,
+        "Glucose Excursion":74.0666666667,
+        "Glucose Excursion Time":823500000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":8.0,
+        "Meal Time":"9 days 16:19:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":68.6666666667,
+        "Time to Peak Glucose":6960000,
+        "Glucose Excursion":47.6666666667,
+        "Glucose Excursion Time":843300000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"1 days 09:04:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":89.3333333333,
+        "Time to Peak Glucose":6960000,
+        "Glucose Excursion":93.0,
+        "Glucose Excursion Time":126000000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"1 days 12:47:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":57.0,
+        "Time to Peak Glucose":2580000,
+        "Glucose Excursion":76.9333333333,
+        "Glucose Excursion Time":135000000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"1 days 17:43:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":87.0666666667,
+        "Time to Peak Glucose":7320000,
+        "Glucose Excursion":26.5333333333,
+        "Glucose Excursion Time":157500000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"1 days 20:48:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":89.4,
+        "Time to Peak Glucose":4320000,
+        "Glucose Excursion":102.0,
+        "Glucose Excursion Time":165600000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"2 days 07:48:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":98.8,
+        "Time to Peak Glucose":6120000,
+        "Glucose Excursion":25.6666666667,
+        "Glucose Excursion Time":207000000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"2 days 11:03:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":89.0666666667,
+        "Time to Peak Glucose":720000,
+        "Glucose Excursion":22.4666666667,
+        "Glucose Excursion Time":213300000,
+        "Glucose Recovery Time":2520000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"2 days 14:48:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":88.0,
+        "Time to Peak Glucose":1620000,
+        "Glucose Excursion":38.2,
+        "Glucose Excursion Time":227700000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"2 days 22:25:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":92.9333333333,
+        "Time to Peak Glucose":7500000,
+        "Glucose Excursion":90.8,
+        "Glucose Excursion Time":261000000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"3 days 09:22:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":86.0,
+        "Time to Peak Glucose":5880000,
+        "Glucose Excursion":49.0,
+        "Glucose Excursion Time":298800000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"3 days 12:51:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":67.6,
+        "Time to Peak Glucose":5940000,
+        "Glucose Excursion":44.4666666667,
+        "Glucose Excursion Time":311400000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"3 days 16:29:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":77.0,
+        "Time to Peak Glucose":3660000,
+        "Glucose Excursion":39.8,
+        "Glucose Excursion Time":322200000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"3 days 17:21:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":115.2,
+        "Time to Peak Glucose":540000,
+        "Glucose Excursion":1.6,
+        "Glucose Excursion Time":322200000,
+        "Glucose Recovery Time":1440000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"3 days 21:11:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":94.0,
+        "Time to Peak Glucose":2040000,
+        "Glucose Excursion":41.6,
+        "Glucose Excursion Time":337500000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"4 days 07:32:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":103.6,
+        "Time to Peak Glucose":1680000,
+        "Glucose Excursion":14.4,
+        "Glucose Excursion Time":374400000,
+        "Glucose Recovery Time":9780000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"4 days 12:59:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":75.0,
+        "Time to Peak Glucose":2760000,
+        "Glucose Excursion":33.1333333333,
+        "Glucose Excursion Time":395100000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"4 days 17:41:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":84.0,
+        "Time to Peak Glucose":10140000,
+        "Glucose Excursion":21.2,
+        "Glucose Excursion Time":419400000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"4 days 18:23:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":92.6,
+        "Time to Peak Glucose":8520000,
+        "Glucose Excursion":17.0,
+        "Glucose Excursion Time":420300000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"4 days 22:07:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":106.6,
+        "Time to Peak Glucose":7680000,
+        "Glucose Excursion":63.4,
+        "Glucose Excursion Time":432900000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"5 days 08:18:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":104.0666666667,
+        "Time to Peak Glucose":1620000,
+        "Glucose Excursion":30.7333333333,
+        "Glucose Excursion Time":463500000,
+        "Glucose Recovery Time":4320000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"5 days 12:32:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.0,
+        "Time to Peak Glucose":1680000,
+        "Glucose Excursion":20.6,
+        "Glucose Excursion Time":478800000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"5 days 16:46:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":90.2666666667,
+        "Time to Peak Glucose":7140000,
+        "Glucose Excursion":21.7333333333,
+        "Glucose Excursion Time":499500000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"5 days 18:07:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":96.9333333333,
+        "Time to Peak Glucose":2280000,
+        "Glucose Excursion":15.0666666667,
+        "Glucose Excursion Time":499500000,
+        "Glucose Recovery Time":8580000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"5 days 21:21:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":93.4666666667,
+        "Time to Peak Glucose":10440000,
+        "Glucose Excursion":56.6,
+        "Glucose Excursion Time":519300000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"6 days 08:33:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":107.6,
+        "Time to Peak Glucose":3420000,
+        "Glucose Excursion":72.8,
+        "Glucose Excursion Time":552600000,
+        "Glucose Recovery Time":8820000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"6 days 12:07:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":71.4666666667,
+        "Time to Peak Glucose":4080000,
+        "Glucose Excursion":36.4666666667,
+        "Glucose Excursion Time":566100000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"6 days 15:12:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":99.1333333333,
+        "Time to Peak Glucose":4680000,
+        "Glucose Excursion":28.6666666667,
+        "Glucose Excursion Time":577800000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"6 days 16:11:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":113.8,
+        "Time to Peak Glucose":1140000,
+        "Glucose Excursion":14.0,
+        "Glucose Excursion Time":577800000,
+        "Glucose Recovery Time":2940000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"7 days 07:31:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":108.8,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":28.4,
+        "Glucose Excursion Time":633600000,
+        "Glucose Recovery Time":9840000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"7 days 12:18:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":72.5333333333,
+        "Time to Peak Glucose":6120000,
+        "Glucose Excursion":19.4666666667,
+        "Glucose Excursion Time":655200000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"7 days 18:51:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":82.8666666667,
+        "Time to Peak Glucose":3240000,
+        "Glucose Excursion":27.6666666667,
+        "Glucose Excursion Time":675900000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"7 days 21:49:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":100.6666666667,
+        "Time to Peak Glucose":4260000,
+        "Glucose Excursion":43.8,
+        "Glucose Excursion Time":687600000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"8 days 07:23:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":114.2,
+        "Time to Peak Glucose":2220000,
+        "Glucose Excursion":33.6,
+        "Glucose Excursion Time":720000000,
+        "Glucose Recovery Time":8520000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"8 days 12:17:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":84.6,
+        "Time to Peak Glucose":2580000,
+        "Glucose Excursion":18.4,
+        "Glucose Excursion Time":738000000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"8 days 17:53:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":100.2,
+        "Time to Peak Glucose":2220000,
+        "Glucose Excursion":49.6666666667,
+        "Glucose Excursion Time":757800000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"8 days 20:16:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":119.1333333333,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":27.6666666667,
+        "Glucose Excursion Time":765900000,
+        "Glucose Recovery Time":3540000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"9 days 07:45:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":112.7333333333,
+        "Time to Peak Glucose":1800000,
+        "Glucose Excursion":28.7333333333,
+        "Glucose Excursion Time":807300000,
+        "Glucose Recovery Time":4500000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"9 days 12:23:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.6,
+        "Time to Peak Glucose":4920000,
+        "Glucose Excursion":46.4666666667,
+        "Glucose Excursion Time":827100000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":9.0,
+        "Meal Time":"9 days 19:23:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":81.8,
+        "Time to Peak Glucose":3120000,
+        "Glucose Excursion":60.2,
+        "Glucose Excursion Time":850500000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"1 days 06:21:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":104.6666666667,
+        "Time to Peak Glucose":2340000,
+        "Glucose Excursion":77.0666666667,
+        "Glucose Excursion Time":111600000,
+        "Glucose Recovery Time":8640000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"1 days 10:41:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":66.2,
+        "Time to Peak Glucose":5640000,
+        "Glucose Excursion":78.6666666667,
+        "Glucose Excursion Time":130500000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"1 days 17:17:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":129.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":148620000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"2 days 06:22:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":95.4,
+        "Time to Peak Glucose":1380000,
+        "Glucose Excursion":50.0,
+        "Glucose Excursion Time":197100000,
+        "Glucose Recovery Time":6780000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"2 days 11:14:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":106.0,
+        "Time to Peak Glucose":2760000,
+        "Glucose Excursion":77.1333333333,
+        "Glucose Excursion Time":216000000,
+        "Glucose Recovery Time":6360000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"2 days 11:42:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":128.7333333333,
+        "Time to Peak Glucose":1080000,
+        "Glucose Excursion":54.4,
+        "Glucose Excursion Time":216000000,
+        "Glucose Recovery Time":3780000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"2 days 15:41:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":85.6,
+        "Time to Peak Glucose":1140000,
+        "Glucose Excursion":24.8666666667,
+        "Glucose Excursion Time":230400000,
+        "Glucose Recovery Time":3840000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"2 days 17:56:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":78.4,
+        "Time to Peak Glucose":2040000,
+        "Glucose Excursion":21.0,
+        "Glucose Excursion Time":239400000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"3 days 06:29:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":56.0,
+        "Time to Peak Glucose":9060000,
+        "Glucose Excursion":49.6,
+        "Glucose Excursion Time":291600000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"3 days 11:02:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":63.8,
+        "Time to Peak Glucose":5280000,
+        "Glucose Excursion":118.8,
+        "Glucose Excursion Time":304200000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"3 days 15:38:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":64.2,
+        "Time to Peak Glucose":6720000,
+        "Glucose Excursion":53.8,
+        "Glucose Excursion Time":322200000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"3 days 16:11:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":78.4,
+        "Time to Peak Glucose":4740000,
+        "Glucose Excursion":39.6,
+        "Glucose Excursion Time":322200000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"3 days 19:23:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":80.2,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":328980000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"4 days 04:38:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":87.0,
+        "Time to Peak Glucose":1320000,
+        "Glucose Excursion":19.9333333333,
+        "Glucose Excursion Time":363600000,
+        "Glucose Recovery Time":3120000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"4 days 08:02:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":92.2,
+        "Time to Peak Glucose":780000,
+        "Glucose Excursion":13.8666666667,
+        "Glucose Excursion Time":375300000,
+        "Glucose Recovery Time":2580000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"4 days 11:34:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":68.6666666667,
+        "Time to Peak Glucose":2460000,
+        "Glucose Excursion":14.4,
+        "Glucose Excursion Time":389700000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"4 days 15:40:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":102.8666666667,
+        "Time to Peak Glucose":6600000,
+        "Glucose Excursion":22.1333333333,
+        "Glucose Excursion Time":408600000,
+        "Glucose Recovery Time":8400000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"4 days 17:22:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":117.0666666667,
+        "Time to Peak Glucose":480000,
+        "Glucose Excursion":7.9333333333,
+        "Glucose Excursion Time":408600000,
+        "Glucose Recovery Time":1380000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"4 days 17:48:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":118.8666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":409680000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"4 days 20:04:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":88.0,
+        "Time to Peak Glucose":7860000,
+        "Glucose Excursion":14.3333333333,
+        "Glucose Excursion Time":425700000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"5 days 04:44:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":90.0,
+        "Time to Peak Glucose":1860000,
+        "Glucose Excursion":4.0,
+        "Glucose Excursion Time":450900000,
+        "Glucose Recovery Time":2760000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"5 days 11:27:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":85.0,
+        "Time to Peak Glucose":3780000,
+        "Glucose Excursion":28.0666666667,
+        "Glucose Excursion Time":477000000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"5 days 15:11:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":99.6,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":486660000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"5 days 18:07:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":91.7333333333,
+        "Time to Peak Glucose":10380000,
+        "Glucose Excursion":33.6666666667,
+        "Glucose Excursion Time":507600000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"6 days 05:06:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":101.2666666667,
+        "Time to Peak Glucose":2340000,
+        "Glucose Excursion":38.8666666667,
+        "Glucose Excursion Time":539100000,
+        "Glucose Recovery Time":7740000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"6 days 08:26:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":69.2,
+        "Time to Peak Glucose":10140000,
+        "Glucose Excursion":14.1333333333,
+        "Glucose Excursion Time":558900000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"6 days 11:01:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":77.1333333333,
+        "Time to Peak Glucose":3540000,
+        "Glucose Excursion":51.3333333333,
+        "Glucose Excursion Time":561600000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"6 days 15:36:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":80.4666666667,
+        "Time to Peak Glucose":4140000,
+        "Glucose Excursion":52.0666666667,
+        "Glucose Excursion Time":578700000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"6 days 16:27:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":125.4666666667,
+        "Time to Peak Glucose":1080000,
+        "Glucose Excursion":7.0666666667,
+        "Glucose Excursion Time":578700000,
+        "Glucose Recovery Time":2880000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"7 days 04:57:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":94.4666666667,
+        "Time to Peak Glucose":1980000,
+        "Glucose Excursion":36.2666666667,
+        "Glucose Excursion Time":624600000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"7 days 11:27:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":76.2666666667,
+        "Time to Peak Glucose":3780000,
+        "Glucose Excursion":32.1333333333,
+        "Glucose Excursion Time":649800000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"7 days 14:42:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":83.2666666667,
+        "Time to Peak Glucose":5580000,
+        "Glucose Excursion":22.6666666667,
+        "Glucose Excursion Time":663300000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"7 days 14:59:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":84.0,
+        "Time to Peak Glucose":4560000,
+        "Glucose Excursion":21.9333333333,
+        "Glucose Excursion Time":663300000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"8 days 05:47:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":104.2,
+        "Time to Peak Glucose":6180000,
+        "Glucose Excursion":42.2666666667,
+        "Glucose Excursion Time":718200000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"8 days 10:51:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":70.4666666667,
+        "Time to Peak Glucose":6840000,
+        "Glucose Excursion":45.3333333333,
+        "Glucose Excursion Time":737100000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"8 days 17:00:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":176.8666666667,
+        "Time to Peak Glucose":960000,
+        "Glucose Excursion":9.3333333333,
+        "Glucose Excursion Time":753360000,
+        "Glucose Recovery Time":1800000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"8 days 17:16:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":186.2,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":753360000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"8 days 19:48:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":97.8666666667,
+        "Time to Peak Glucose":1620000,
+        "Glucose Excursion":23.0666666667,
+        "Glucose Excursion Time":764100000,
+        "Glucose Recovery Time":3420000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"9 days 07:08:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":102.0,
+        "Time to Peak Glucose":1320000,
+        "Glucose Excursion":33.8666666667,
+        "Glucose Excursion Time":804600000,
+        "Glucose Recovery Time":5820000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"9 days 13:00:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":121.8666666667,
+        "Time to Peak Glucose":2700000,
+        "Glucose Excursion":5.5333333333,
+        "Glucose Excursion Time":827100000,
+        "Glucose Recovery Time":3600000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"9 days 16:08:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":100.4,
+        "Time to Peak Glucose":2220000,
+        "Glucose Excursion":19.8,
+        "Glucose Excursion Time":837900000,
+        "Glucose Recovery Time":4920000
+    },
+    {
+        "PID":10.0,
+        "Meal Time":"9 days 17:21:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":103.6666666667,
+        "Time to Peak Glucose":2340000,
+        "Glucose Excursion":15.2,
+        "Glucose Excursion Time":842400000,
+        "Glucose Recovery Time":4140000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"1 days 09:32:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":135.2,
+        "Time to Peak Glucose":3480000,
+        "Glucose Excursion":165.4,
+        "Glucose Excursion Time":124200000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"1 days 14:38:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":114.2,
+        "Time to Peak Glucose":3120000,
+        "Glucose Excursion":65.6666666667,
+        "Glucose Excursion Time":142200000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"1 days 21:05:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":93.4,
+        "Time to Peak Glucose":10500000,
+        "Glucose Excursion":98.3333333333,
+        "Glucose Excursion Time":172800000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"2 days 09:55:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":156.9333333333,
+        "Time to Peak Glucose":3000000,
+        "Glucose Excursion":112.0666666667,
+        "Glucose Excursion Time":211500000,
+        "Glucose Recovery Time":7500000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"2 days 14:37:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":89.6,
+        "Time to Peak Glucose":4080000,
+        "Glucose Excursion":35.8666666667,
+        "Glucose Excursion Time":229500000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"2 days 18:09:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":106.3333333333,
+        "Time to Peak Glucose":4860000,
+        "Glucose Excursion":102.5333333333,
+        "Glucose Excursion Time":243000000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"2 days 20:58:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":173.4,
+        "Time to Peak Glucose":2820000,
+        "Glucose Excursion":4.5333333333,
+        "Glucose Excursion Time":251100000,
+        "Glucose Recovery Time":3720000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"3 days 09:26:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":180.8,
+        "Time to Peak Glucose":3840000,
+        "Glucose Excursion":152.3333333333,
+        "Glucose Excursion Time":297000000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"3 days 14:39:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":103.3333333333,
+        "Time to Peak Glucose":8460000,
+        "Glucose Excursion":233.5333333333,
+        "Glucose Excursion Time":320400000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"3 days 17:53:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":329.4,
+        "Time to Peak Glucose":1320000,
+        "Glucose Excursion":9.2,
+        "Glucose Excursion Time":324900000,
+        "Glucose Recovery Time":2220000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"3 days 21:15:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":96.5333333333,
+        "Time to Peak Glucose":10800000,
+        "Glucose Excursion":47.2,
+        "Glucose Excursion Time":346500000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"4 days 11:44:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":185.0,
+        "Time to Peak Glucose":1860000,
+        "Glucose Excursion":49.8666666667,
+        "Glucose Excursion Time":389700000,
+        "Glucose Recovery Time":4560000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"4 days 16:22:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":117.9333333333,
+        "Time to Peak Glucose":6780000,
+        "Glucose Excursion":21.0,
+        "Glucose Excursion Time":411300000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"4 days 20:20:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":123.2,
+        "Time to Peak Glucose":5100000,
+        "Glucose Excursion":106.7333333333,
+        "Glucose Excursion Time":423900000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"5 days 10:02:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":174.6,
+        "Time to Peak Glucose":4380000,
+        "Glucose Excursion":154.8,
+        "Glucose Excursion Time":472500000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"5 days 14:43:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":117.2666666667,
+        "Time to Peak Glucose":10020000,
+        "Glucose Excursion":134.2666666667,
+        "Glucose Excursion Time":495000000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"5 days 21:40:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":116.1333333333,
+        "Time to Peak Glucose":6600000,
+        "Glucose Excursion":64.8,
+        "Glucose Excursion Time":516600000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"6 days 09:39:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":155.3333333333,
+        "Time to Peak Glucose":3960000,
+        "Glucose Excursion":172.3333333333,
+        "Glucose Excursion Time":557100000,
+        "Glucose Recovery Time":8460000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"6 days 15:17:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":83.8,
+        "Time to Peak Glucose":7080000,
+        "Glucose Excursion":167.0666666667,
+        "Glucose Excursion Time":580500000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"6 days 22:42:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":97.1333333333,
+        "Time to Peak Glucose":5580000,
+        "Glucose Excursion":185.3333333333,
+        "Glucose Excursion Time":605700000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"7 days 10:14:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":151.0,
+        "Time to Peak Glucose":2760000,
+        "Glucose Excursion":106.6666666667,
+        "Glucose Excursion Time":644400000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"7 days 14:41:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":90.4,
+        "Time to Peak Glucose":6540000,
+        "Glucose Excursion":57.1333333333,
+        "Glucose Excursion Time":664200000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"7 days 20:44:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":102.0,
+        "Time to Peak Glucose":5460000,
+        "Glucose Excursion":97.2666666667,
+        "Glucose Excursion Time":684900000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"8 days 11:15:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":171.0666666667,
+        "Time to Peak Glucose":1800000,
+        "Glucose Excursion":75.0666666667,
+        "Glucose Excursion Time":733500000,
+        "Glucose Recovery Time":4500000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"8 days 15:05:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":86.4,
+        "Time to Peak Glucose":6000000,
+        "Glucose Excursion":43.2666666667,
+        "Glucose Excursion Time":751500000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"8 days 19:38:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":108.0,
+        "Time to Peak Glucose":4920000,
+        "Glucose Excursion":139.4666666667,
+        "Glucose Excursion Time":766800000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"8 days 21:40:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":231.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":769200000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"9 days 09:38:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":149.2,
+        "Time to Peak Glucose":2220000,
+        "Glucose Excursion":67.3333333333,
+        "Glucose Excursion Time":814500000,
+        "Glucose Recovery Time":6720000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"9 days 14:58:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":106.0666666667,
+        "Time to Peak Glucose":5520000,
+        "Glucose Excursion":163.6,
+        "Glucose Excursion Time":837000000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":12.0,
+        "Meal Time":"9 days 21:16:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":124.0,
+        "Time to Peak Glucose":2640000,
+        "Glucose Excursion":73.0,
+        "Glucose Excursion Time":856800000,
+        "Glucose Recovery Time":6240000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"1 days 08:13:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":132.9333333333,
+        "Time to Peak Glucose":3720000,
+        "Glucose Excursion":86.7333333333,
+        "Glucose Excursion Time":119700000,
+        "Glucose Recovery Time":8220000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"1 days 12:42:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":81.8666666667,
+        "Time to Peak Glucose":2880000,
+        "Glucose Excursion":26.6,
+        "Glucose Excursion Time":135000000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"1 days 17:38:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":113.8,
+        "Time to Peak Glucose":4020000,
+        "Glucose Excursion":14.1333333333,
+        "Glucose Excursion Time":153900000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"1 days 21:14:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":108.0,
+        "Time to Peak Glucose":1860000,
+        "Glucose Excursion":26.4666666667,
+        "Glucose Excursion Time":164700000,
+        "Glucose Recovery Time":5460000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"2 days 09:08:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":121.2,
+        "Time to Peak Glucose":3120000,
+        "Glucose Excursion":65.5333333333,
+        "Glucose Excursion Time":208800000,
+        "Glucose Recovery Time":6720000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"2 days 13:09:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":78.3333333333,
+        "Time to Peak Glucose":9360000,
+        "Glucose Excursion":20.6666666667,
+        "Glucose Excursion Time":229500000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"2 days 18:04:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":104.0,
+        "Time to Peak Glucose":5160000,
+        "Glucose Excursion":58.8,
+        "Glucose Excursion Time":243000000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"2 days 18:19:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":101.0,
+        "Time to Peak Glucose":4260000,
+        "Glucose Excursion":61.8,
+        "Glucose Excursion Time":243000000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"3 days 08:29:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":130.0,
+        "Time to Peak Glucose":2760000,
+        "Glucose Excursion":45.4,
+        "Glucose Excursion Time":292500000,
+        "Glucose Recovery Time":8160000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"3 days 12:36:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":74.8,
+        "Time to Peak Glucose":6840000,
+        "Glucose Excursion":137.3333333333,
+        "Glucose Excursion Time":311400000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"3 days 18:12:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":87.5333333333,
+        "Time to Peak Glucose":3780000,
+        "Glucose Excursion":60.2,
+        "Glucose Excursion Time":328500000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"3 days 18:52:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":107.0,
+        "Time to Peak Glucose":1380000,
+        "Glucose Excursion":40.7333333333,
+        "Glucose Excursion Time":328500000,
+        "Glucose Recovery Time":4980000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"4 days 08:31:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":126.4,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":21.3333333333,
+        "Glucose Excursion Time":378000000,
+        "Glucose Recovery Time":7140000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"4 days 12:32:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":105.8,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":390720000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"4 days 19:00:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":112.9333333333,
+        "Time to Peak Glucose":2700000,
+        "Glucose Excursion":68.0,
+        "Glucose Excursion Time":416700000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"4 days 20:01:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":176.9333333333,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":417660000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"5 days 08:37:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":120.2,
+        "Time to Peak Glucose":2280000,
+        "Glucose Excursion":31.8666666667,
+        "Glucose Excursion Time":465300000,
+        "Glucose Recovery Time":4080000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"5 days 12:37:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":89.5333333333,
+        "Time to Peak Glucose":4980000,
+        "Glucose Excursion":55.9333333333,
+        "Glucose Excursion Time":482400000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"5 days 17:32:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":96.4,
+        "Time to Peak Glucose":2580000,
+        "Glucose Excursion":19.9333333333,
+        "Glucose Excursion Time":497700000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"6 days 07:27:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":138.3333333333,
+        "Time to Peak Glucose":2880000,
+        "Glucose Excursion":75.4666666667,
+        "Glucose Excursion Time":548100000,
+        "Glucose Recovery Time":9180000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"6 days 11:40:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":73.2,
+        "Time to Peak Glucose":3900000,
+        "Glucose Excursion":77.3333333333,
+        "Glucose Excursion Time":564300000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"6 days 16:47:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":85.0,
+        "Time to Peak Glucose":7980000,
+        "Glucose Excursion":50.5333333333,
+        "Glucose Excursion Time":586800000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"6 days 21:27:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":98.8,
+        "Time to Peak Glucose":7380000,
+        "Glucose Excursion":51.1333333333,
+        "Glucose Excursion Time":603000000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"7 days 07:26:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":135.0,
+        "Time to Peak Glucose":2040000,
+        "Glucose Excursion":70.5333333333,
+        "Glucose Excursion Time":633600000,
+        "Glucose Recovery Time":5640000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"7 days 14:42:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":80.2,
+        "Time to Peak Glucose":3780000,
+        "Glucose Excursion":28.3333333333,
+        "Glucose Excursion Time":661500000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"7 days 20:00:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":88.2,
+        "Time to Peak Glucose":9900000,
+        "Glucose Excursion":31.0666666667,
+        "Glucose Excursion Time":686700000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"7 days 22:01:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":99.2666666667,
+        "Time to Peak Glucose":2640000,
+        "Glucose Excursion":20.0,
+        "Glucose Excursion Time":686700000,
+        "Glucose Recovery Time":7140000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"7 days 22:21:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":107.0666666667,
+        "Time to Peak Glucose":1440000,
+        "Glucose Excursion":12.2,
+        "Glucose Excursion Time":686700000,
+        "Glucose Recovery Time":5040000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"8 days 08:32:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":111.4,
+        "Time to Peak Glucose":2580000,
+        "Glucose Excursion":60.8666666667,
+        "Glucose Excursion Time":724500000,
+        "Glucose Recovery Time":7980000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"8 days 12:17:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":91.8,
+        "Time to Peak Glucose":3480000,
+        "Glucose Excursion":25.7333333333,
+        "Glucose Excursion Time":738900000,
+        "Glucose Recovery Time":7980000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"8 days 19:44:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":87.0,
+        "Time to Peak Glucose":2760000,
+        "Glucose Excursion":88.8,
+        "Glucose Excursion Time":765000000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"8 days 22:47:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":86.4,
+        "Time to Peak Glucose":4380000,
+        "Glucose Excursion":9.6666666667,
+        "Glucose Excursion Time":777600000,
+        "Glucose Recovery Time":6180000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"9 days 08:13:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":112.7333333333,
+        "Time to Peak Glucose":1920000,
+        "Glucose Excursion":51.1333333333,
+        "Glucose Excursion Time":809100000,
+        "Glucose Recovery Time":4620000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"9 days 12:23:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":76.6,
+        "Time to Peak Glucose":5820000,
+        "Glucose Excursion":76.9333333333,
+        "Glucose Excursion Time":828000000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"9 days 18:51:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":91.2,
+        "Time to Peak Glucose":9540000,
+        "Glucose Excursion":47.2666666667,
+        "Glucose Excursion Time":855000000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"9 days 19:09:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":98.0,
+        "Time to Peak Glucose":8460000,
+        "Glucose Excursion":40.4666666667,
+        "Glucose Excursion Time":855000000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":14.0,
+        "Meal Time":"9 days 21:45:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":137.9333333333,
+        "Time to Peak Glucose":900000,
+        "Glucose Excursion":0.1333333333,
+        "Glucose Excursion Time":856800000,
+        "Glucose Recovery Time":1800000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"1 days 09:49:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":78.0,
+        "Time to Peak Glucose":2460000,
+        "Glucose Excursion":76.0,
+        "Glucose Excursion Time":124200000,
+        "Glucose Recovery Time":9660000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"1 days 13:11:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":53.4,
+        "Time to Peak Glucose":3840000,
+        "Glucose Excursion":55.2,
+        "Glucose Excursion Time":137700000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"1 days 17:37:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":77.0,
+        "Time to Peak Glucose":4320000,
+        "Glucose Excursion":43.3333333333,
+        "Glucose Excursion Time":154140000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"1 days 17:57:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":81.3333333333,
+        "Time to Peak Glucose":3120000,
+        "Glucose Excursion":39.0,
+        "Glucose Excursion Time":154140000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"1 days 18:49:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":120.3333333333,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":154140000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"2 days 13:11:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":78.6,
+        "Time to Peak Glucose":8340000,
+        "Glucose Excursion":4.4,
+        "Glucose Excursion Time":228600000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"2 days 13:25:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":75.0666666667,
+        "Time to Peak Glucose":7500000,
+        "Glucose Excursion":7.9333333333,
+        "Glucose Excursion Time":228600000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"2 days 18:43:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":96.0666666667,
+        "Time to Peak Glucose":1920000,
+        "Glucose Excursion":52.6666666667,
+        "Glucose Excursion Time":242100000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"2 days 23:30:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":81.8666666667,
+        "Time to Peak Glucose":5400000,
+        "Glucose Excursion":43.2666666667,
+        "Glucose Excursion Time":262800000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"3 days 10:27:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":96.6666666667,
+        "Time to Peak Glucose":1980000,
+        "Glucose Excursion":51.8666666667,
+        "Glucose Excursion Time":298800000,
+        "Glucose Recovery Time":8280000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"3 days 14:08:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":49.0,
+        "Time to Peak Glucose":5820000,
+        "Glucose Excursion":105.0666666667,
+        "Glucose Excursion Time":315900000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"3 days 16:59:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":134.0,
+        "Time to Peak Glucose":960000,
+        "Glucose Excursion":23.5333333333,
+        "Glucose Excursion Time":321300000,
+        "Glucose Recovery Time":2760000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"3 days 21:32:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":63.0,
+        "Time to Peak Glucose":8880000,
+        "Glucose Excursion":56.0666666667,
+        "Glucose Excursion Time":345600000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"3 days 23:13:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":81.1333333333,
+        "Time to Peak Glucose":2820000,
+        "Glucose Excursion":37.9333333333,
+        "Glucose Excursion Time":345600000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"4 days 09:41:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":86.6,
+        "Time to Peak Glucose":2040000,
+        "Glucose Excursion":41.9333333333,
+        "Glucose Excursion Time":382500000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"4 days 13:02:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":74.0,
+        "Time to Peak Glucose":7980000,
+        "Glucose Excursion":9.5333333333,
+        "Glucose Excursion Time":400500000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"4 days 16:52:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":94.2666666667,
+        "Time to Peak Glucose":2280000,
+        "Glucose Excursion":95.8,
+        "Glucose Excursion Time":408600000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"5 days 09:49:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":95.6666666667,
+        "Time to Peak Glucose":1560000,
+        "Glucose Excursion":38.2666666667,
+        "Glucose Excursion Time":468900000,
+        "Glucose Recovery Time":6060000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"5 days 13:26:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":76.4,
+        "Time to Peak Glucose":2940000,
+        "Glucose Excursion":66.0666666667,
+        "Glucose Excursion Time":483300000,
+        "Glucose Recovery Time":9240000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"5 days 17:53:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":81.4,
+        "Time to Peak Glucose":6720000,
+        "Glucose Excursion":49.6666666667,
+        "Glucose Excursion Time":503100000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"6 days 09:43:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":91.9333333333,
+        "Time to Peak Glucose":2820000,
+        "Glucose Excursion":62.8,
+        "Glucose Excursion Time":556200000,
+        "Glucose Recovery Time":8220000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"6 days 18:51:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":83.9333333333,
+        "Time to Peak Glucose":1440000,
+        "Glucose Excursion":63.9333333333,
+        "Glucose Excursion Time":587700000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"6 days 23:49:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":98.0,
+        "Time to Peak Glucose":1560000,
+        "Glucose Excursion":30.0,
+        "Glucose Excursion Time":605700000,
+        "Glucose Recovery Time":5160000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"7 days 10:44:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":101.0,
+        "Time to Peak Glucose":960000,
+        "Glucose Excursion":30.4,
+        "Glucose Excursion Time":644400000,
+        "Glucose Recovery Time":3660000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"7 days 14:23:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":82.2,
+        "Time to Peak Glucose":10320000,
+        "Glucose Excursion":37.8666666667,
+        "Glucose Excursion Time":666900000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"7 days 17:01:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":91.7333333333,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":44.8666666667,
+        "Glucose Excursion Time":667800000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"8 days 10:43:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":104.0666666667,
+        "Time to Peak Glucose":1920000,
+        "Glucose Excursion":63.7333333333,
+        "Glucose Excursion Time":731700000,
+        "Glucose Recovery Time":3720000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"8 days 14:43:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":67.2,
+        "Time to Peak Glucose":10800000,
+        "Glucose Excursion":31.8666666667,
+        "Glucose Excursion Time":754980000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"8 days 17:43:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":99.0666666667,
+        "Time to Peak Glucose":1920000,
+        "Glucose Excursion":54.0666666667,
+        "Glucose Excursion Time":756900000,
+        "Glucose Recovery Time":4620000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"9 days 11:02:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":94.8,
+        "Time to Peak Glucose":10680000,
+        "Glucose Excursion":32.4666666667,
+        "Glucose Excursion Time":828000000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"9 days 13:34:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":81.3333333333,
+        "Time to Peak Glucose":2460000,
+        "Glucose Excursion":59.8666666667,
+        "Glucose Excursion Time":828900000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":26.0,
+        "Meal Time":"9 days 17:43:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":104.2666666667,
+        "Time to Peak Glucose":1020000,
+        "Glucose Excursion":43.3333333333,
+        "Glucose Excursion Time":842400000,
+        "Glucose Recovery Time":2820000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"1 days 06:30:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":115.6666666667,
+        "Time to Peak Glucose":1800000,
+        "Glucose Excursion":82.4666666667,
+        "Glucose Excursion Time":111600000,
+        "Glucose Recovery Time":9900000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"1 days 12:42:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":111.6666666667,
+        "Time to Peak Glucose":1980000,
+        "Glucose Excursion":40.2,
+        "Glucose Excursion Time":134100000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"1 days 17:50:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":92.6,
+        "Time to Peak Glucose":1500000,
+        "Glucose Excursion":49.0,
+        "Glucose Excursion Time":152100000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"2 days 07:04:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":120.0,
+        "Time to Peak Glucose":2460000,
+        "Glucose Excursion":46.7333333333,
+        "Glucose Excursion Time":200700000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"2 days 12:24:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":96.0,
+        "Time to Peak Glucose":2160000,
+        "Glucose Excursion":17.0666666667,
+        "Glucose Excursion Time":219600000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"2 days 17:06:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":99.6,
+        "Time to Peak Glucose":3240000,
+        "Glucose Excursion":60.1333333333,
+        "Glucose Excursion Time":237600000,
+        "Glucose Recovery Time":5940000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"3 days 07:08:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":112.8,
+        "Time to Peak Glucose":2220000,
+        "Glucose Excursion":72.0,
+        "Glucose Excursion Time":287100000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"3 days 12:39:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":93.3333333333,
+        "Time to Peak Glucose":3060000,
+        "Glucose Excursion":136.4666666667,
+        "Glucose Excursion Time":307800000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"3 days 18:05:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":91.2,
+        "Time to Peak Glucose":1500000,
+        "Glucose Excursion":36.4,
+        "Glucose Excursion Time":325800000,
+        "Glucose Recovery Time":3300000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"4 days 07:16:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":106.2,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":38.2,
+        "Glucose Excursion Time":373500000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"4 days 12:41:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":99.6,
+        "Time to Peak Glucose":8340000,
+        "Glucose Excursion":14.4,
+        "Glucose Excursion Time":399600000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"4 days 18:23:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":100.0,
+        "Time to Peak Glucose":4020000,
+        "Glucose Excursion":43.5333333333,
+        "Glucose Excursion Time":415800000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"5 days 06:26:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":105.2,
+        "Time to Peak Glucose":2040000,
+        "Glucose Excursion":33.4,
+        "Glucose Excursion Time":457200000,
+        "Glucose Recovery Time":8340000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"5 days 12:26:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":96.8,
+        "Time to Peak Glucose":2940000,
+        "Glucose Excursion":77.6666666667,
+        "Glucose Excursion Time":479700000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"5 days 18:21:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":105.6,
+        "Time to Peak Glucose":7740000,
+        "Glucose Excursion":41.8,
+        "Glucose Excursion Time":505800000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"6 days 06:43:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":108.1333333333,
+        "Time to Peak Glucose":2820000,
+        "Glucose Excursion":45.0666666667,
+        "Glucose Excursion Time":545400000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"6 days 12:27:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":94.7333333333,
+        "Time to Peak Glucose":2880000,
+        "Glucose Excursion":66.8,
+        "Glucose Excursion Time":566100000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"6 days 18:22:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":99.4,
+        "Time to Peak Glucose":2280000,
+        "Glucose Excursion":64.7333333333,
+        "Glucose Excursion Time":586800000,
+        "Glucose Recovery Time":9480000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"7 days 07:05:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":98.0,
+        "Time to Peak Glucose":2400000,
+        "Glucose Excursion":58.8666666667,
+        "Glucose Excursion Time":632700000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"7 days 12:25:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":91.0,
+        "Time to Peak Glucose":3000000,
+        "Glucose Excursion":29.3333333333,
+        "Glucose Excursion Time":652500000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"7 days 16:46:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":96.2666666667,
+        "Time to Peak Glucose":4440000,
+        "Glucose Excursion":23.7333333333,
+        "Glucose Excursion Time":669600000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"8 days 06:37:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":103.9333333333,
+        "Time to Peak Glucose":2280000,
+        "Glucose Excursion":40.7333333333,
+        "Glucose Excursion Time":717300000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"8 days 12:25:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":86.4666666667,
+        "Time to Peak Glucose":3000000,
+        "Glucose Excursion":39.6,
+        "Glucose Excursion Time":738900000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"8 days 17:20:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":97.0,
+        "Time to Peak Glucose":2400000,
+        "Glucose Excursion":43.6666666667,
+        "Glucose Excursion Time":756000000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"9 days 06:23:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":95.2,
+        "Time to Peak Glucose":2220000,
+        "Glucose Excursion":55.4,
+        "Glucose Excursion Time":802800000,
+        "Glucose Recovery Time":7620000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"9 days 12:25:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":89.7333333333,
+        "Time to Peak Glucose":3000000,
+        "Glucose Excursion":81.4666666667,
+        "Glucose Excursion Time":825300000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":29.0,
+        "Meal Time":"9 days 18:59:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":100.0,
+        "Time to Peak Glucose":3660000,
+        "Glucose Excursion":54.4,
+        "Glucose Excursion Time":849600000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"1 days 11:20:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":186.8,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":127200000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"1 days 17:36:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":143.2,
+        "Time to Peak Glucose":8640000,
+        "Glucose Excursion":15.7333333333,
+        "Glucose Excursion Time":158400000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"2 days 07:29:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":161.0,
+        "Time to Peak Glucose":8160000,
+        "Glucose Excursion":167.8,
+        "Glucose Excursion Time":207900000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"2 days 11:16:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":238.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":213360000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"2 days 17:37:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":109.0,
+        "Time to Peak Glucose":10380000,
+        "Glucose Excursion":85.1333333333,
+        "Glucose Excursion Time":246600000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"3 days 07:27:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":123.4,
+        "Time to Peak Glucose":9180000,
+        "Glucose Excursion":237.8666666667,
+        "Glucose Excursion Time":295200000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"3 days 12:46:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":112.8,
+        "Time to Peak Glucose":9840000,
+        "Glucose Excursion":76.7333333333,
+        "Glucose Excursion Time":315000000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"3 days 18:02:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":139.8,
+        "Time to Peak Glucose":10680000,
+        "Glucose Excursion":0.2666666667,
+        "Glucose Excursion Time":334800000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"4 days 11:29:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":285.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":386940000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"4 days 17:12:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":153.6,
+        "Time to Peak Glucose":10080000,
+        "Glucose Excursion":95.4666666667,
+        "Glucose Excursion Time":417600000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"5 days 07:03:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":112.5333333333,
+        "Time to Peak Glucose":7920000,
+        "Glucose Excursion":117.6666666667,
+        "Glucose Excursion Time":465300000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"5 days 11:20:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":135.0,
+        "Time to Peak Glucose":10500000,
+        "Glucose Excursion":5.0666666667,
+        "Glucose Excursion Time":483300000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"5 days 17:54:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":131.3333333333,
+        "Time to Peak Glucose":10260000,
+        "Glucose Excursion":80.8,
+        "Glucose Excursion Time":506700000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"6 days 07:18:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":131.4666666667,
+        "Time to Peak Glucose":5220000,
+        "Glucose Excursion":112.8666666667,
+        "Glucose Excursion Time":549900000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"6 days 12:18:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":124.8666666667,
+        "Time to Peak Glucose":6120000,
+        "Glucose Excursion":13.6666666667,
+        "Glucose Excursion Time":568800000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"6 days 16:18:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":124.6666666667,
+        "Time to Peak Glucose":7920000,
+        "Glucose Excursion":59.9333333333,
+        "Glucose Excursion Time":585000000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"7 days 08:02:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":146.4,
+        "Time to Peak Glucose":9780000,
+        "Glucose Excursion":132.7333333333,
+        "Glucose Excursion Time":643500000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"7 days 12:02:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":180.0,
+        "Time to Peak Glucose":6180000,
+        "Glucose Excursion":7.3333333333,
+        "Glucose Excursion Time":654300000,
+        "Glucose Recovery Time":7080000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"7 days 17:28:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":83.0666666667,
+        "Time to Peak Glucose":10020000,
+        "Glucose Excursion":127.0,
+        "Glucose Excursion Time":677700000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"8 days 07:48:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":114.0,
+        "Time to Peak Glucose":10620000,
+        "Glucose Excursion":238.2666666667,
+        "Glucose Excursion Time":729900000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"8 days 11:45:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":220.9333333333,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":733500000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"8 days 18:32:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":247.6,
+        "Time to Peak Glucose":5280000,
+        "Glucose Excursion":51.1333333333,
+        "Glucose Excursion Time":763200000,
+        "Glucose Recovery Time":9780000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"9 days 09:06:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":123.0,
+        "Time to Peak Glucose":9540000,
+        "Glucose Excursion":148.5333333333,
+        "Glucose Excursion Time":819900000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"9 days 12:14:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":242.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":821640000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":30.0,
+        "Meal Time":"9 days 19:37:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":113.8666666667,
+        "Time to Peak Glucose":10380000,
+        "Glucose Excursion":170.5333333333,
+        "Glucose Excursion Time":858600000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"1 days 01:20:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":70.4,
+        "Time to Peak Glucose":10500000,
+        "Glucose Excursion":65.9333333333,
+        "Glucose Excursion Time":101700000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"1 days 08:24:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":73.0,
+        "Time to Peak Glucose":9360000,
+        "Glucose Excursion":31.1333333333,
+        "Glucose Excursion Time":126000000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"1 days 09:39:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":77.6666666667,
+        "Time to Peak Glucose":4860000,
+        "Glucose Excursion":26.4666666667,
+        "Glucose Excursion Time":126000000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"1 days 20:11:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":70.6,
+        "Time to Peak Glucose":9240000,
+        "Glucose Excursion":18.8666666667,
+        "Glucose Excursion Time":168300000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"2 days 01:26:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":80.2,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":177960000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"2 days 05:01:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":67.6666666667,
+        "Time to Peak Glucose":6240000,
+        "Glucose Excursion":17.3333333333,
+        "Glucose Excursion Time":197100000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"2 days 06:58:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":85.0,
+        "Time to Peak Glucose":5520000,
+        "Glucose Excursion":2.0666666667,
+        "Glucose Excursion Time":203400000,
+        "Glucose Recovery Time":7320000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"2 days 07:01:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":84.8666666667,
+        "Time to Peak Glucose":5340000,
+        "Glucose Excursion":2.2,
+        "Glucose Excursion Time":203400000,
+        "Glucose Recovery Time":7140000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"2 days 20:28:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":77.4666666667,
+        "Time to Peak Glucose":7320000,
+        "Glucose Excursion":45.6,
+        "Glucose Excursion Time":253800000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 01:07:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":58.0666666667,
+        "Time to Peak Glucose":6780000,
+        "Glucose Excursion":113.9333333333,
+        "Glucose Excursion Time":270000000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 04:27:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":116.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":275220000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 04:28:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":116.3333333333,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":275280000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 05:12:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":95.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":277920000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 06:34:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":81.6666666667,
+        "Time to Peak Glucose":10560000,
+        "Glucose Excursion":12.4666666667,
+        "Glucose Excursion Time":293400000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 08:12:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":74.0,
+        "Time to Peak Glucose":4680000,
+        "Glucose Excursion":20.1333333333,
+        "Glucose Excursion Time":293400000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 08:35:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":74.2,
+        "Time to Peak Glucose":3300000,
+        "Glucose Excursion":19.9333333333,
+        "Glucose Excursion Time":293400000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 09:09:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":80.0,
+        "Time to Peak Glucose":1260000,
+        "Glucose Excursion":14.1333333333,
+        "Glucose Excursion Time":293400000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 09:58:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":92.2666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":295080000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"3 days 21:38:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":84.8,
+        "Time to Peak Glucose":420000,
+        "Glucose Excursion":6.4,
+        "Glucose Excursion Time":337500000,
+        "Glucose Recovery Time":2220000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"4 days 00:37:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.7333333333,
+        "Time to Peak Glucose":2280000,
+        "Glucose Excursion":3.5333333333,
+        "Glucose Excursion Time":350100000,
+        "Glucose Recovery Time":3180000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"4 days 07:05:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":93.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":371100000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"4 days 21:03:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":83.6666666667,
+        "Time to Peak Glucose":720000,
+        "Glucose Excursion":10.5333333333,
+        "Glucose Excursion Time":422100000,
+        "Glucose Recovery Time":7020000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"5 days 00:46:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":82.4,
+        "Time to Peak Glucose":6240000,
+        "Glucose Excursion":25.2,
+        "Glucose Excursion Time":441000000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"5 days 04:19:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":91.0,
+        "Time to Peak Glucose":6960000,
+        "Glucose Excursion":9.2666666667,
+        "Glucose Excursion Time":454500000,
+        "Glucose Recovery Time":8760000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"5 days 05:18:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":93.9333333333,
+        "Time to Peak Glucose":3420000,
+        "Glucose Excursion":6.3333333333,
+        "Glucose Excursion Time":454500000,
+        "Glucose Recovery Time":5220000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"5 days 08:23:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":81.6,
+        "Time to Peak Glucose":7620000,
+        "Glucose Excursion":35.9333333333,
+        "Glucose Excursion Time":469800000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"5 days 08:30:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":80.6,
+        "Time to Peak Glucose":7200000,
+        "Glucose Excursion":36.9333333333,
+        "Glucose Excursion Time":469800000,
+        "Glucose Recovery Time":9900000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"5 days 08:40:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":86.6,
+        "Time to Peak Glucose":6600000,
+        "Glucose Excursion":30.9333333333,
+        "Glucose Excursion Time":469800000,
+        "Glucose Recovery Time":9300000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"5 days 20:39:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":84.6666666667,
+        "Time to Peak Glucose":1260000,
+        "Glucose Excursion":31.3333333333,
+        "Glucose Excursion Time":507600000,
+        "Glucose Recovery Time":3960000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"6 days 01:16:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":69.5333333333,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":14.6,
+        "Glucose Excursion Time":524700000,
+        "Glucose Recovery Time":4440000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"6 days 05:10:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":84.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":537000000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"6 days 07:04:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":74.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":543840000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"6 days 07:18:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":68.9333333333,
+        "Time to Peak Glucose":10620000,
+        "Glucose Excursion":9.8,
+        "Glucose Excursion Time":555300000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"6 days 07:41:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":64.4,
+        "Time to Peak Glucose":10140000,
+        "Glucose Excursion":19.2,
+        "Glucose Excursion Time":556200000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"6 days 20:50:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":85.4,
+        "Time to Peak Glucose":600000,
+        "Glucose Excursion":11.2,
+        "Glucose Excursion Time":594000000,
+        "Glucose Recovery Time":2400000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"7 days 00:58:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.4666666667,
+        "Time to Peak Glucose":4620000,
+        "Glucose Excursion":7.2,
+        "Glucose Excursion Time":612900000,
+        "Glucose Recovery Time":6420000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"7 days 04:23:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":80.0,
+        "Time to Peak Glucose":3120000,
+        "Glucose Excursion":25.0,
+        "Glucose Excursion Time":623700000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"7 days 06:19:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":81.0,
+        "Time to Peak Glucose":4260000,
+        "Glucose Excursion":8.6666666667,
+        "Glucose Excursion Time":631800000,
+        "Glucose Recovery Time":6960000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"7 days 09:24:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":80.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":638640000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"7 days 19:58:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":84.6666666667,
+        "Time to Peak Glucose":4620000,
+        "Glucose Excursion":26.8666666667,
+        "Glucose Excursion Time":681300000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"8 days 01:03:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":72.7333333333,
+        "Time to Peak Glucose":4320000,
+        "Glucose Excursion":30.6,
+        "Glucose Excursion Time":699300000,
+        "Glucose Recovery Time":9720000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"8 days 04:08:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":70.4,
+        "Time to Peak Glucose":4920000,
+        "Glucose Excursion":60.6,
+        "Glucose Excursion Time":711000000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"8 days 04:14:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":70.0,
+        "Time to Peak Glucose":4560000,
+        "Glucose Excursion":61.0,
+        "Glucose Excursion Time":711000000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"8 days 05:54:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":123.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":712440000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"8 days 06:24:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":113.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":714240000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"8 days 07:09:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":93.3333333333,
+        "Time to Peak Glucose":5760000,
+        "Glucose Excursion":19.7333333333,
+        "Glucose Excursion Time":722700000,
+        "Glucose Recovery Time":9360000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"8 days 20:12:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":78.0,
+        "Time to Peak Glucose":1980000,
+        "Glucose Excursion":15.4666666667,
+        "Glucose Excursion Time":765900000,
+        "Glucose Recovery Time":3780000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"9 days 00:48:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":73.6,
+        "Time to Peak Glucose":4320000,
+        "Glucose Excursion":60.9333333333,
+        "Glucose Excursion Time":784800000,
+        "Glucose Recovery Time":10620000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"9 days 03:54:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":97.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":791640000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"9 days 06:25:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":78.1333333333,
+        "Time to Peak Glucose":2160000,
+        "Glucose Excursion":18.4666666667,
+        "Glucose Excursion Time":802860000,
+        "Glucose Recovery Time":5700000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"9 days 07:01:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":96.6,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":802860000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"9 days 09:00:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":78.6666666667,
+        "Time to Peak Glucose":5400000,
+        "Glucose Excursion":13.8666666667,
+        "Glucose Excursion Time":815400000,
+        "Glucose Recovery Time":8100000
+    },
+    {
+        "PID":31.0,
+        "Meal Time":"9 days 19:45:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":81.8,
+        "Time to Peak Glucose":6300000,
+        "Glucose Excursion":24.7,
+        "Glucose Excursion Time":855000000,
+        "Glucose Recovery Time":6300000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"1 days 07:25:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":84.4,
+        "Time to Peak Glucose":2100000,
+        "Glucose Excursion":48.0666666667,
+        "Glucose Excursion Time":115200000,
+        "Glucose Recovery Time":7500000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"1 days 10:44:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":83.0,
+        "Time to Peak Glucose":9960000,
+        "Glucose Excursion":25.6,
+        "Glucose Excursion Time":135000000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"1 days 10:59:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":79.0,
+        "Time to Peak Glucose":9960000,
+        "Glucose Excursion":29.9333333333,
+        "Glucose Excursion Time":135900000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"1 days 12:00:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":84.0666666667,
+        "Time to Peak Glucose":6300000,
+        "Glucose Excursion":24.8666666667,
+        "Glucose Excursion Time":135900000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"1 days 17:10:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":106.3333333333,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":148200000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"1 days 19:31:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":73.2666666667,
+        "Time to Peak Glucose":6240000,
+        "Glucose Excursion":30.2,
+        "Glucose Excursion Time":162900000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"2 days 06:30:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":93.4666666667,
+        "Time to Peak Glucose":1800000,
+        "Glucose Excursion":23.4666666667,
+        "Glucose Excursion Time":198000000,
+        "Glucose Recovery Time":3600000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"2 days 09:54:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":77.6666666667,
+        "Time to Peak Glucose":2160000,
+        "Glucose Excursion":10.8,
+        "Glucose Excursion Time":210600000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"2 days 12:13:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":85.0,
+        "Time to Peak Glucose":10020000,
+        "Glucose Excursion":23.4,
+        "Glucose Excursion Time":226800000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"2 days 17:01:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":68.2,
+        "Time to Peak Glucose":8940000,
+        "Glucose Excursion":45.4,
+        "Glucose Excursion Time":243000000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"2 days 18:39:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":83.3333333333,
+        "Time to Peak Glucose":3060000,
+        "Glucose Excursion":30.2666666667,
+        "Glucose Excursion Time":243000000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"2 days 18:41:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":82.8,
+        "Time to Peak Glucose":2940000,
+        "Glucose Excursion":30.8,
+        "Glucose Excursion Time":243000000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"3 days 08:09:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":77.3333333333,
+        "Time to Peak Glucose":5760000,
+        "Glucose Excursion":26.2,
+        "Glucose Excursion Time":294300000,
+        "Glucose Recovery Time":7560000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"3 days 12:22:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":88.2,
+        "Time to Peak Glucose":3180000,
+        "Glucose Excursion":39.1333333333,
+        "Glucose Excursion Time":306900000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"3 days 15:13:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":114.0,
+        "Time to Peak Glucose":1020000,
+        "Glucose Excursion":2.0,
+        "Glucose Excursion Time":315000000,
+        "Glucose Recovery Time":1920000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"3 days 16:06:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":108.6,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":317160000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"3 days 19:39:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":70.6666666667,
+        "Time to Peak Glucose":10260000,
+        "Glucose Excursion":51.2666666667,
+        "Glucose Excursion Time":340200000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"3 days 21:28:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":103.0666666667,
+        "Time to Peak Glucose":3720000,
+        "Glucose Excursion":18.8666666667,
+        "Glucose Excursion Time":340200000,
+        "Glucose Recovery Time":9120000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"4 days 09:43:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":82.1333333333,
+        "Time to Peak Glucose":6420000,
+        "Glucose Excursion":19.4,
+        "Glucose Excursion Time":387000000,
+        "Glucose Recovery Time":9120000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"4 days 12:46:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.1333333333,
+        "Time to Peak Glucose":8040000,
+        "Glucose Excursion":5.4,
+        "Glucose Excursion Time":399600000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"4 days 16:58:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":92.0,
+        "Time to Peak Glucose":1920000,
+        "Glucose Excursion":20.4,
+        "Glucose Excursion Time":408600000,
+        "Glucose Recovery Time":3720000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"4 days 18:46:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":67.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":413160000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"4 days 21:52:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":40.0,
+        "Time to Peak Glucose":2280000,
+        "Glucose Excursion":27.4,
+        "Glucose Excursion Time":426600000,
+        "Glucose Recovery Time":5880000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"5 days 06:33:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":76.8,
+        "Time to Peak Glucose":1620000,
+        "Glucose Excursion":30.2,
+        "Glucose Excursion Time":457200000,
+        "Glucose Recovery Time":3420000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"5 days 11:40:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":73.6666666667,
+        "Time to Peak Glucose":300000,
+        "Glucose Excursion":16.5333333333,
+        "Glucose Excursion Time":474300000,
+        "Glucose Recovery Time":2100000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"5 days 16:28:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":64.6,
+        "Time to Peak Glucose":1020000,
+        "Glucose Excursion":17.8666666667,
+        "Glucose Excursion Time":492300000,
+        "Glucose Recovery Time":7320000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"5 days 20:19:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":69.0,
+        "Time to Peak Glucose":5160000,
+        "Glucose Excursion":16.8666666667,
+        "Glucose Excursion Time":510300000,
+        "Glucose Recovery Time":9660000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"6 days 06:03:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":76.9333333333,
+        "Time to Peak Glucose":2520000,
+        "Glucose Excursion":31.6,
+        "Glucose Excursion Time":542700000,
+        "Glucose Recovery Time":4320000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"6 days 09:29:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":66.0,
+        "Time to Peak Glucose":10200000,
+        "Glucose Excursion":36.6666666667,
+        "Glucose Excursion Time":562740000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"6 days 11:45:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":74.2666666667,
+        "Time to Peak Glucose":2040000,
+        "Glucose Excursion":28.4,
+        "Glucose Excursion Time":562740000,
+        "Glucose Recovery Time":10800000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"6 days 12:19:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":102.6666666667,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":562740000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"6 days 17:46:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":89.6666666667,
+        "Time to Peak Glucose":7140000,
+        "Glucose Excursion":5.0666666667,
+        "Glucose Excursion Time":589500000,
+        "Glucose Recovery Time":8940000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"6 days 19:19:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":77.0,
+        "Time to Peak Glucose":1560000,
+        "Glucose Excursion":17.7333333333,
+        "Glucose Excursion Time":589500000,
+        "Glucose Recovery Time":5160000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"7 days 07:05:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":82.2,
+        "Time to Peak Glucose":600000,
+        "Glucose Excursion":21.4666666667,
+        "Glucose Excursion Time":630900000,
+        "Glucose Recovery Time":2400000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"7 days 13:02:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":78.8,
+        "Time to Peak Glucose":1680000,
+        "Glucose Excursion":33.5333333333,
+        "Glucose Excursion Time":653400000,
+        "Glucose Recovery Time":3480000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"7 days 18:52:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":72.0666666667,
+        "Time to Peak Glucose":1380000,
+        "Glucose Excursion":8.0666666667,
+        "Glucose Excursion Time":674100000,
+        "Glucose Recovery Time":3180000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"8 days 06:59:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":74.0,
+        "Time to Peak Glucose":1860000,
+        "Glucose Excursion":25.6,
+        "Glucose Excursion Time":718200000,
+        "Glucose Recovery Time":3660000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"8 days 13:24:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":97.0,
+        "Time to Peak Glucose":3060000,
+        "Glucose Excursion":10.6,
+        "Glucose Excursion Time":742500000,
+        "Glucose Recovery Time":4860000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"8 days 17:32:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":86.4,
+        "Time to Peak Glucose":7980000,
+        "Glucose Excursion":18.8666666667,
+        "Glucose Excursion Time":762300000,
+        "Glucose Recovery Time":9720000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"8 days 18:59:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":76.0,
+        "Time to Peak Glucose":2760000,
+        "Glucose Excursion":29.2666666667,
+        "Glucose Excursion Time":762300000,
+        "Glucose Recovery Time":4560000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"8 days 20:14:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":78.0,
+        "Time to Peak Glucose":9960000,
+        "Glucose Excursion":22.4666666667,
+        "Glucose Excursion Time":774000000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"9 days 07:11:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":89.8,
+        "Time to Peak Glucose":1140000,
+        "Glucose Excursion":19.5333333333,
+        "Glucose Excursion Time":804600000,
+        "Glucose Recovery Time":2940000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"9 days 10:32:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":79.2,
+        "Time to Peak Glucose":10680000,
+        "Glucose Excursion":23.9333333333,
+        "Glucose Excursion Time":826200000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"9 days 11:57:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":94.9333333333,
+        "Time to Peak Glucose":7380000,
+        "Glucose Excursion":13.9333333333,
+        "Glucose Excursion Time":828000000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":34.0,
+        "Meal Time":"9 days 18:00:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":81.3333333333,
+        "Time to Peak Glucose":900000,
+        "Glucose Excursion":24.5333333333,
+        "Glucose Excursion Time":843300000,
+        "Glucose Recovery Time":6300000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"1 days 07:13:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":127.2,
+        "Time to Peak Glucose":4620000,
+        "Glucose Excursion":102.3333333333,
+        "Glucose Excursion Time":117000000,
+        "Glucose Recovery Time":9120000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"1 days 10:16:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":83.9333333333,
+        "Time to Peak Glucose":8040000,
+        "Glucose Excursion":61.2,
+        "Glucose Excursion Time":131400000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"1 days 17:36:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":119.4666666667,
+        "Time to Peak Glucose":4140000,
+        "Glucose Excursion":45.5333333333,
+        "Glucose Excursion Time":153900000,
+        "Glucose Recovery Time":9540000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"2 days 07:11:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":164.8,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":198660000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"2 days 10:29:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":118.0,
+        "Time to Peak Glucose":9960000,
+        "Glucose Excursion":3.2,
+        "Glucose Excursion Time":220500000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"2 days 17:19:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":138.0,
+        "Time to Peak Glucose":2460000,
+        "Glucose Excursion":50.4666666667,
+        "Glucose Excursion Time":237600000,
+        "Glucose Recovery Time":6960000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"3 days 07:15:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":119.4666666667,
+        "Time to Peak Glucose":3600000,
+        "Glucose Excursion":77.3333333333,
+        "Glucose Excursion Time":288900000,
+        "Glucose Recovery Time":9000000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"4 days 08:24:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":125.0,
+        "Time to Peak Glucose":3960000,
+        "Glucose Excursion":66.0666666667,
+        "Glucose Excursion Time":379800000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"4 days 11:18:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":171.4666666667,
+        "Time to Peak Glucose":2520000,
+        "Glucose Excursion":29.0,
+        "Glucose Excursion Time":388800000,
+        "Glucose Recovery Time":9720000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"5 days 07:27:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":118.1333333333,
+        "Time to Peak Glucose":2880000,
+        "Glucose Excursion":37.0,
+        "Glucose Excursion Time":461700000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"5 days 15:14:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":119.0,
+        "Time to Peak Glucose":4560000,
+        "Glucose Excursion":48.4666666667,
+        "Glucose Excursion Time":491400000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"6 days 07:29:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":140.0,
+        "Time to Peak Glucose":9060000,
+        "Glucose Excursion":28.8666666667,
+        "Glucose Excursion Time":554400000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"6 days 15:26:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":124.6,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":573960000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"7 days 06:39:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":122.6666666667,
+        "Time to Peak Glucose":6660000,
+        "Glucose Excursion":37.2666666667,
+        "Glucose Excursion Time":635400000,
+        "Glucose Recovery Time":8460000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"7 days 13:58:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":146.0666666667,
+        "Time to Peak Glucose":9120000,
+        "Glucose Excursion":3.4666666667,
+        "Glucose Excursion Time":664200000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"8 days 07:04:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":125.0,
+        "Time to Peak Glucose":3360000,
+        "Glucose Excursion":36.6666666667,
+        "Glucose Excursion Time":720000000,
+        "Glucose Recovery Time":10560000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"8 days 11:41:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":116.6,
+        "Time to Peak Glucose":10140000,
+        "Glucose Excursion":34.4666666667,
+        "Glucose Excursion Time":743400000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"9 days 09:17:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":105.2,
+        "Time to Peak Glucose":2580000,
+        "Glucose Excursion":32.8,
+        "Glucose Excursion Time":813600000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":42.0,
+        "Meal Time":"9 days 16:31:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":117.2,
+        "Time to Peak Glucose":10740000,
+        "Glucose Excursion":32.3333333333,
+        "Glucose Excursion Time":847800000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"1 days 09:20:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":72.8,
+        "Time to Peak Glucose":2400000,
+        "Glucose Excursion":32.4666666667,
+        "Glucose Excursion Time":122400000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"1 days 13:27:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":62.2666666667,
+        "Time to Peak Glucose":6480000,
+        "Glucose Excursion":55.3333333333,
+        "Glucose Excursion Time":141300000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"1 days 19:15:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":92.9333333333,
+        "Time to Peak Glucose":2700000,
+        "Glucose Excursion":14.6,
+        "Glucose Excursion Time":158400000,
+        "Glucose Recovery Time":9000000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"2 days 10:14:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":84.0,
+        "Time to Peak Glucose":1860000,
+        "Glucose Excursion":15.4,
+        "Glucose Excursion Time":211500000,
+        "Glucose Recovery Time":5460000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"2 days 15:42:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":70.8,
+        "Time to Peak Glucose":1980000,
+        "Glucose Excursion":9.6666666667,
+        "Glucose Excursion Time":231300000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"2 days 20:56:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":105.0,
+        "Time to Peak Glucose":0,
+        "Glucose Excursion":0.0,
+        "Glucose Excursion Time":248160000,
+        "Glucose Recovery Time":0
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"3 days 07:16:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":53.8,
+        "Time to Peak Glucose":1740000,
+        "Glucose Excursion":39.1333333333,
+        "Glucose Excursion Time":287100000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"3 days 13:47:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":57.8,
+        "Time to Peak Glucose":3480000,
+        "Glucose Excursion":86.2,
+        "Glucose Excursion Time":312300000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"3 days 18:43:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":63.4666666667,
+        "Time to Peak Glucose":1920000,
+        "Glucose Excursion":28.6,
+        "Glucose Excursion Time":328500000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"4 days 06:52:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":66.0666666667,
+        "Time to Peak Glucose":1380000,
+        "Glucose Excursion":37.4666666667,
+        "Glucose Excursion Time":371700000,
+        "Glucose Recovery Time":4080000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"4 days 11:28:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":56.5333333333,
+        "Time to Peak Glucose":10020000,
+        "Glucose Excursion":6.0,
+        "Glucose Excursion Time":396900000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"4 days 18:52:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":68.6,
+        "Time to Peak Glucose":3180000,
+        "Glucose Excursion":54.3333333333,
+        "Glucose Excursion Time":416700000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"5 days 07:08:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":89.0,
+        "Time to Peak Glucose":1320000,
+        "Glucose Excursion":43.6,
+        "Glucose Excursion Time":459000000,
+        "Glucose Recovery Time":4020000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"5 days 10:42:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":79.6,
+        "Time to Peak Glucose":1980000,
+        "Glucose Excursion":36.8,
+        "Glucose Excursion Time":472500000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"5 days 15:04:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":88.0,
+        "Time to Peak Glucose":660000,
+        "Glucose Excursion":9.0666666667,
+        "Glucose Excursion Time":486900000,
+        "Glucose Recovery Time":1560000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"5 days 17:29:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":83.0,
+        "Time to Peak Glucose":1860000,
+        "Glucose Excursion":13.8666666667,
+        "Glucose Excursion Time":496800000,
+        "Glucose Recovery Time":3660000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"5 days 18:31:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":81.7333333333,
+        "Time to Peak Glucose":4440000,
+        "Glucose Excursion":11.4,
+        "Glucose Excursion Time":503100000,
+        "Glucose Recovery Time":7140000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"6 days 06:49:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":99.0,
+        "Time to Peak Glucose":1560000,
+        "Glucose Excursion":46.1333333333,
+        "Glucose Excursion Time":544500000,
+        "Glucose Recovery Time":4260000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"6 days 10:59:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":83.0,
+        "Time to Peak Glucose":2760000,
+        "Glucose Excursion":47.1333333333,
+        "Glucose Excursion Time":560700000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"6 days 18:49:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":101.0,
+        "Time to Peak Glucose":660000,
+        "Glucose Excursion":8.5333333333,
+        "Glucose Excursion Time":586800000,
+        "Glucose Recovery Time":3360000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"7 days 09:18:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":101.0,
+        "Time to Peak Glucose":2520000,
+        "Glucose Excursion":47.8,
+        "Glucose Excursion Time":640800000,
+        "Glucose Recovery Time":5220000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"7 days 12:18:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":87.8666666667,
+        "Time to Peak Glucose":2520000,
+        "Glucose Excursion":12.2666666667,
+        "Glucose Excursion Time":651600000,
+        "Glucose Recovery Time":4320000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"7 days 16:15:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":93.0,
+        "Time to Peak Glucose":1800000,
+        "Glucose Excursion":24.2,
+        "Glucose Excursion Time":665100000,
+        "Glucose Recovery Time":6300000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"7 days 19:34:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":102.6666666667,
+        "Time to Peak Glucose":1560000,
+        "Glucose Excursion":27.0666666667,
+        "Glucose Excursion Time":676800000,
+        "Glucose Recovery Time":5160000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"8 days 10:19:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":95.3333333333,
+        "Time to Peak Glucose":1560000,
+        "Glucose Excursion":52.6,
+        "Glucose Excursion Time":729900000,
+        "Glucose Recovery Time":4260000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"8 days 13:10:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":77.9333333333,
+        "Time to Peak Glucose":2100000,
+        "Glucose Excursion":40.1333333333,
+        "Glucose Excursion Time":740700000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"8 days 16:20:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":94.8,
+        "Time to Peak Glucose":4200000,
+        "Glucose Excursion":53.7333333333,
+        "Glucose Excursion Time":754200000,
+        "Glucose Recovery Time":10500000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"8 days 21:21:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":83.4666666667,
+        "Time to Peak Glucose":2340000,
+        "Glucose Excursion":37.3333333333,
+        "Glucose Excursion Time":770400000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"9 days 10:07:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":94.0,
+        "Time to Peak Glucose":1380000,
+        "Glucose Excursion":28.8666666667,
+        "Glucose Excursion Time":815400000,
+        "Glucose Recovery Time":3180000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"9 days 13:07:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":80.1333333333,
+        "Time to Peak Glucose":2280000,
+        "Glucose Excursion":35.4666666667,
+        "Glucose Excursion Time":827100000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"9 days 18:53:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":89.0,
+        "Time to Peak Glucose":7620000,
+        "Glucose Excursion":20.9333333333,
+        "Glucose Excursion Time":853200000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":48.0,
+        "Meal Time":"9 days 22:21:00",
+        "Meal Type":"snack",
+        "Glucose Level at Meal Time":99.6666666667,
+        "Time to Peak Glucose":1440000,
+        "Glucose Excursion":28.3333333333,
+        "Glucose Excursion Time":859500000,
+        "Glucose Recovery Time":5040000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"1 days 07:11:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":166.6,
+        "Time to Peak Glucose":3840000,
+        "Glucose Excursion":185.7333333333,
+        "Glucose Excursion Time":116100000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"1 days 13:40:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":132.9333333333,
+        "Time to Peak Glucose":8400000,
+        "Glucose Excursion":63.6666666667,
+        "Glucose Excursion Time":144000000,
+        "Glucose Recovery Time":10200000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"1 days 20:51:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":115.5333333333,
+        "Time to Peak Glucose":9540000,
+        "Glucose Excursion":52.2666666667,
+        "Glucose Excursion Time":171000000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"2 days 07:14:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":143.0,
+        "Time to Peak Glucose":3660000,
+        "Glucose Excursion":130.3333333333,
+        "Glucose Excursion Time":202500000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"2 days 13:32:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":84.6,
+        "Time to Peak Glucose":4380000,
+        "Glucose Excursion":101.7333333333,
+        "Glucose Excursion Time":225900000,
+        "Glucose Recovery Time":10680000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"3 days 07:14:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":162.0,
+        "Time to Peak Glucose":4560000,
+        "Glucose Excursion":133.5333333333,
+        "Glucose Excursion Time":289800000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"3 days 12:08:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":99.2,
+        "Time to Peak Glucose":8520000,
+        "Glucose Excursion":123.7333333333,
+        "Glucose Excursion Time":311400000,
+        "Glucose Recovery Time":10320000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"3 days 19:39:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":92.3333333333,
+        "Time to Peak Glucose":5760000,
+        "Glucose Excursion":89.7333333333,
+        "Glucose Excursion Time":335700000,
+        "Glucose Recovery Time":10260000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"4 days 08:16:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":134.9333333333,
+        "Time to Peak Glucose":4440000,
+        "Glucose Excursion":75.4666666667,
+        "Glucose Excursion Time":379800000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"4 days 13:11:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":96.8,
+        "Time to Peak Glucose":8340000,
+        "Glucose Excursion":10.2,
+        "Glucose Excursion Time":401400000,
+        "Glucose Recovery Time":10140000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"4 days 20:16:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":115.5333333333,
+        "Time to Peak Glucose":8040000,
+        "Glucose Excursion":77.4666666667,
+        "Glucose Excursion Time":426600000,
+        "Glucose Recovery Time":10740000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"5 days 07:15:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":125.8666666667,
+        "Time to Peak Glucose":2700000,
+        "Glucose Excursion":67.8,
+        "Glucose Excursion Time":460800000,
+        "Glucose Recovery Time":7200000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"5 days 12:14:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":88.0,
+        "Time to Peak Glucose":4560000,
+        "Glucose Excursion":96.4666666667,
+        "Glucose Excursion Time":480600000,
+        "Glucose Recovery Time":9960000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"5 days 19:36:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":104.9333333333,
+        "Time to Peak Glucose":9540000,
+        "Glucose Excursion":73.0666666667,
+        "Glucose Excursion Time":512100000,
+        "Glucose Recovery Time":10440000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"6 days 07:17:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":148.2,
+        "Time to Peak Glucose":3480000,
+        "Glucose Excursion":97.6,
+        "Glucose Excursion Time":548100000,
+        "Glucose Recovery Time":7980000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"6 days 12:22:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":75.2666666667,
+        "Time to Peak Glucose":10380000,
+        "Glucose Excursion":100.0666666667,
+        "Glucose Excursion Time":573300000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"6 days 19:23:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":147.8,
+        "Time to Peak Glucose":4020000,
+        "Glucose Excursion":66.5333333333,
+        "Glucose Excursion Time":592200000,
+        "Glucose Recovery Time":6720000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"7 days 09:05:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":134.6,
+        "Time to Peak Glucose":3300000,
+        "Glucose Excursion":126.2,
+        "Glucose Excursion Time":640800000,
+        "Glucose Recovery Time":8700000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"7 days 13:07:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":113.5333333333,
+        "Time to Peak Glucose":5880000,
+        "Glucose Excursion":39.8,
+        "Glucose Excursion Time":657900000,
+        "Glucose Recovery Time":10380000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"7 days 19:48:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":180.8,
+        "Time to Peak Glucose":2520000,
+        "Glucose Excursion":8.2666666667,
+        "Glucose Excursion Time":678600000,
+        "Glucose Recovery Time":5220000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"8 days 07:12:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":132.6,
+        "Time to Peak Glucose":3780000,
+        "Glucose Excursion":161.0,
+        "Glucose Excursion Time":720900000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"8 days 13:43:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":82.9333333333,
+        "Time to Peak Glucose":4620000,
+        "Glucose Excursion":65.6,
+        "Glucose Excursion Time":745200000,
+        "Glucose Recovery Time":10020000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"8 days 20:27:00",
+        "Meal Type":"dinner",
+        "Glucose Level at Meal Time":88.4666666667,
+        "Time to Peak Glucose":3780000,
+        "Glucose Excursion":102.4666666667,
+        "Glucose Excursion Time":768600000,
+        "Glucose Recovery Time":10080000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"9 days 07:12:00",
+        "Meal Type":"breakfast",
+        "Glucose Level at Meal Time":138.3333333333,
+        "Time to Peak Glucose":2880000,
+        "Glucose Excursion":85.8666666667,
+        "Glucose Excursion Time":806400000,
+        "Glucose Recovery Time":8280000
+    },
+    {
+        "PID":49.0,
+        "Meal Time":"9 days 12:59:00",
+        "Meal Type":"lunch",
+        "Glucose Level at Meal Time":84.0,
+        "Time to Peak Glucose":7260000,
+        "Glucose Excursion":147.0666666667,
+        "Glucose Excursion Time":831600000,
+        "Glucose Recovery Time":9960000
+    }
+]
