@@ -1316,3 +1316,46 @@ button:disabled {
   font-size: medium;
   padding-right: 5%;
 }
+
+/* Add these new styles and modifications */
+
+/* Modify the analysis section styling */
+.roll.analysis-section {
+  min-height: auto;
+  height: auto;
+  padding: 20px 0;
+}
+
+.roll.analysis-section .description {
+  max-width: 70vw;
+  margin: 0 auto;
+  background: var(--color-pastel);
+  padding: 30px;
+}
+
+.roll.analysis-section .section-header {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--color-blue);
+}
+
+/* Style the details text and lists */
+.roll.analysis-section .details {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.roll.analysis-section .meal-list,
+.roll.analysis-section .metrics-list {
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.roll.analysis-section li {
+  margin: 5px 0;
+  color: #333;
+  font-size: 1.2rem;
+}
