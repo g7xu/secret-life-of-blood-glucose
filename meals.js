@@ -213,7 +213,7 @@ d3.json("assets/vis_data/meal_data.json").then(data => {
                     title: "🤔 You might have already noticed",
                     details: [
                         "Participants with diabetes don't eat snacks very often",
-                        "It seems like their eating habits not rigid with fixed meal times"
+                        "It seems like their eating habits is rigid with fixed meal times"
                     ]
                 }
             };
