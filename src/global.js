@@ -111,6 +111,29 @@ function createParticipantButtons(participants) {
   });
 }
 
+// Select the checkbox for toggling meal icons
+const mealIconsToggle = document.getElementById("toggle-meal-icons");
+
+// Global state to persist toggle status
+let showMealIcons = mealIconsToggle.checked;
+
+// Function to show or hide meal icons while keeping dots visible
+function toggleMealIcons() {
+    showMealIcons = mealIconsToggle.checked; // Update global state
+
+    d3.selectAll('.meal-time-line, .meal-dot') // Hide dashed line and icons
+      .style('display', showMealIcons ? 'block' : 'none');
+}
+
+// Add event listener to the checkbox to toggle meal icons
+mealIconsToggle.addEventListener("change", toggleMealIcons);
+
+// Ensure meal icons are initially displayed correctly on page load
+document.addEventListener("DOMContentLoaded", () => {
+    toggleMealIcons();
+});
+
+
 function rendering_timeSlider(startDay, endDay) {
   const container = d3.select("#time-range-selector");
   container.selectAll("*").remove();
