@@ -66,52 +66,54 @@ document.addEventListener('DOMContentLoaded', () => {
         const userBMI = calculateBMI(weight, height);
     
     // Find closest matches from each diabetes level
-    const matches = findClosestMatches(userBMI, gender);
+    const k = 3; // Number of nearest neighbors
+        const matches = findClosestMatches(userBMI, gender, k);
 
         quizForm.innerHTML = ''; 
 
         quizResult.innerHTML = `
         <h3 id = "header">Your Closest Matches <br> For Each Diabetic Level:</h3>
-        <p id = "match" >Non-diabetic Participant ${matches.find(m => m.diabetesLevel === "Non-diabetic").pid} <br>
-        Pre-diabetic Participant ${matches.find(m => m.diabetesLevel === "Pre-diabetic").pid}<br>
-       Diabetic Participant ${matches.find(m => m.diabetesLevel === "Diabetic").pid}<br> </p>
+        <p id = "match" >Non-diabetic Participant ${matches["Non-diabetic"]} <br>
+        Pre-diabetic Participant ${matches["Pre-diabetic"]}<br>
+       Diabetic Participant ${matches["Diabetic"]}<br> </p>
         <p id="result">Pay attention to matched participants in the visualizations to see how your glucose levels may compare.</p>
         `;
     });
 
 
-    function findClosestMatches(userBMI, userGender) {
-        const groups = {
-            "Non-diabetic": [],
-            "Pre-diabetic": [],
-            "Diabetic": []
-        };
+    function findClosestMatches(userBMI, userGender, k = 3) {
+        const formattedUserGender = userGender === "Male" ? "M" : (userGender === "Female" ? "F" : null);
     
-        dataset.forEach(person => {
-            // Convert gender to match format if needed (e.g., "Male" -> "M")
-            const formattedUserGender = userGender === "Male" ? "M" : (userGender === "Female" ? "F" : userGender);
-            const genderMatch = (!formattedUserGender || person.Gender === formattedUserGender);
-            
-            if (genderMatch) {
-                groups[person["diabetes level"]].push({
-                    ...person,
-                    bmiDiff: Math.abs(person.BMI - userBMI)
-                });
+        // Compute distances for all participants
+        let distances = dataset.map(person => {
+            const bmiDiff = Math.abs(person.BMI - userBMI);
+            const genderMatch = (formattedUserGender === null || person.Gender === formattedUserGender) ? 0 : 1; // Gender is optional
+    
+            // Euclidean distance (BMI + optional gender factor)
+            const distance = Math.sqrt(bmiDiff ** 2 + genderMatch ** 2);
+    
+            return { pid: person.PID, diabetesLevel: person["diabetes level"], distance };
+        });
+    
+        // Sort dataset by closest distance
+        distances.sort((a, b) => a.distance - b.distance);
+    
+        // Group participants by diabetes level
+        const closestMatches = { "Non-diabetic": null, "Pre-diabetic": null, "Diabetic": null };
+    
+        distances.forEach(person => {
+            if (!closestMatches[person.diabetesLevel]) {
+                closestMatches[person.diabetesLevel] = person.pid;
             }
         });
     
-        // Find closest match from each group
-        return Object.keys(groups).map(diabetesLevel => {
-            if (groups[diabetesLevel].length > 0) {
-                // Sort by BMI difference and take the closest match
-                const closestMatch = groups[diabetesLevel].sort((a, b) => a.bmiDiff - b.bmiDiff)[0];
-                return {
-                    diabetesLevel,
-                    pid: closestMatch.PID
-                };
-            } else {
-                return { diabetesLevel, pid: "No match found" };
+        // Fallback for any missing groups
+        Object.keys(closestMatches).forEach(level => {
+            if (!closestMatches[level]) {
+                closestMatches[level] = "No match found";
             }
         });
+    
+        return closestMatches;
     }
 });

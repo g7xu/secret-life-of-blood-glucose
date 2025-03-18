@@ -434,7 +434,7 @@ progress::-moz-progress-bar {
   width: 100%;
   display: flex;
   flex-direction: column;
-  overflow-y: hidden; /* Ensures visualization doesn't overflow */
+  overflow-y: hidden; /* Ensures visualization d~goesn't overflow */
 }
 
 #panel-3 {
@@ -446,7 +446,7 @@ progress::-moz-progress-bar {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 2rem;
+
   padding: 1rem;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 8px;
@@ -753,8 +753,6 @@ h4 {
 .participant-section {
   text-align: center;
   padding: 10px;
-  background-color: #f8f8f8;
-  border-radius: 10px;
 }
 
 .chart-container {
@@ -782,6 +780,7 @@ h4 {
 #question section {
   position: relative;
   height: 100vh;
+  overflow-x: hidden; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -893,13 +892,13 @@ svg {
 
 /* style for the animated svg */
 .rolling_glucose_svg {
-  background-color: #f0f0f0;
-  border-radius: 5px;
   background: white;
   border-radius: 10px;
-  max-width: 100%;
+  height: 100%;
   display: block;
+  overflow: visible;
 }
+
 
 .control-section {
   margin-bottom: 24px;
@@ -1045,6 +1044,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
     height: 100vh; /* Ensure the section takes the full viewport height */
     overflow: hidden;
     flex-wrap: wrap; /* Allow wrapping of child elements */
@@ -1055,27 +1055,52 @@ input[type="range"]::-webkit-slider-thumb:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
     width: 90%;
+    margin: 0;
+    max-width: 1200px; /* Prevent excessive stretching */
 }
 
 #rollig_glu_dot .line-category {
     display: flex;
     flex-direction: row;
-    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     width: 100%;
-    height: 25vh; /* Ensure the element takes the full height of the container */
+    height: 23vh; /* Ensure the element takes the full height of the container */
 }
 
-#vertical-text {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg); 
-    font-size: 0.5rem;
-    color: var(--color-blue);
-    margin-right: 10px; 
+.roll-title{
+  margin-top: 1%;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 1.5rem;
+  color:gray
+}
+
+
+
+.roll{
+  padding: 0;
+  .description{
+    text-align: center;
+    height: 50%;
+    justify-content: center;
+    background-color: #c6dbef; /* Light background */
+    color:white;
+    p{
+      font-weight: 700;
+      max-width: 80%;  /* Limits text width for better readability */
+      line-height: 1.5;
+      padding: 10px;
+      font-size: 25px;
+    }
+  }
+}
+
+#intro-roll p{
+  font-size: 100%;
 }
 
 .range-slider{

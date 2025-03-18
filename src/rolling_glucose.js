@@ -11,6 +11,7 @@ tooltipDiv.style.zIndex = "1000";
 tooltipDiv.style.display = "none";
 document.body.appendChild(tooltipDiv);
 
+
 // Load data function
 async function loadData() {
     try {
@@ -52,9 +53,9 @@ async function loadData() {
 // Get color for group
 function getColorForGroup(group) {
     const colors = {
-        "Non-diabetic": "#00bfae",  // Teal
-        "Pre-diabetic": "#fac127",  // Yellow
-        "Diabetic": "#fb6900"       // Orange
+        "Non-diabetic": "#2ecc71",  // Teal
+        "Pre-diabetic": "#f1c40f",  // Yellow
+        "Diabetic": "#4059ad"       // Orange
     };
     return colors[group] || "#000000"; // Default to black if no match
 }
@@ -113,9 +114,21 @@ async function loadDataAndCreateCharts() {
                 .style('height', `100%`)
                 .style('padding', '5px')
                 .style('position', 'relative'); // Add relative positioning
+            
+                container.append("div")
+                .attr("class", "participant-title")
+                .style("font-size", "10px") // Smaller font size
+                .style("font-weight", "bold")
+                .style("text-align", "center")
+                .style("width", "100%")
+                .style("z-index", "3")
+                .style("padding", "5px")
+                .style("color", "#555") // Subtle text color
+                .style("margin-top", "-60px") // Shift the title up
+                .text(`Participant ${pid}`);
 
             const color = getColorForGroup(group);
-            const chart = createGlucoseLineChart(participantDiv, entries, color, globalYScale);
+            const chart = createGlucoseLineChart(participantDiv, entries, color, globalYScale, pid);
             charts.push(chart);
         });
     });
@@ -240,11 +253,11 @@ function createGlucoseLineChart(container, data, groupColor, yScale) {
         setTimeout(animate, 20);
     }
 
-    const margin = { top: 10, right: 10, bottom: 40, left: 50 };
+    const margin = { top: -5, right: 10, bottom: 40, left: 50 };
     const svg = container.append("svg")
         .attr('class', 'rolling_glucose_svg')
         .attr("width", `100%`)
-        .attr("height", `100%`)
+        .attr("height", `80%`)
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
@@ -252,7 +265,7 @@ function createGlucoseLineChart(container, data, groupColor, yScale) {
     let width = container.node().getBoundingClientRect().width - margin.left - margin.right;
     let height = container.node().getBoundingClientRect().height - margin.top - margin.bottom;
     width = Math.max(width, 150); // ensure minimum width
-    height = Math.max(height, 150); // ensure minimum height
+    height = Math.max(height, 100); // ensure minimum height
 
     // the glucose line
     const clipPath = svg.append("defs").append("clipPath")
@@ -294,14 +307,26 @@ function createGlucoseLineChart(container, data, groupColor, yScale) {
 
     const dot = chartGroup.append("circle")
         .attr("r", 5)
-        .attr("fill", "red");
+        .attr("fill", "skyblue");   
 
     const xAxisGroup = svg.append("g")
         .attr("class", "x-axis")
         .attr("transform", `translate(0, ${height * 0.8})`);
 
-    const yAxisGroup = svg.append("g")
+        const yAxisGroup = svg.append("g")
         .attr("class", "y-axis");
+    
+    // Add Y-axis label
+    svg.append("text")
+        .attr("class", "y-axis-label")
+        .attr("transform", "rotate(-90)")
+        .attr("x", -height / 2)
+        .attr("y", -margin.left + 15) // Moves it inside the margin
+        .attr("text-anchor", "middle")
+        .style("font-family", "Arial, sans-serif")
+        .style("font-size", "12px")
+        .style("fill", "gray")
+        .text("Glucose (mg/dL)");
 
     let animationRunning = false;
 
