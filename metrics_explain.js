@@ -15,12 +15,21 @@ const dataFiles = {
 // Function to fetch data
 async function fetchData() {
     try {
-        console.log("Fetching data...");
+        console.log("Fetching data from:", dataFiles);
 
         const [bioData, cgmData, mealData] = await Promise.all([
-            d3.json(dataFiles.bioData),
-            d3.json(dataFiles.cgmData),
-            d3.json(dataFiles.mealData)
+            d3.json(dataFiles.bioData).catch(error => {
+                console.error('Error loading bioData:', error);
+                throw error;
+            }),
+            d3.json(dataFiles.cgmData).catch(error => {
+                console.error('Error loading cgmData:', error);
+                throw error;
+            }),
+            d3.json(dataFiles.mealData).catch(error => {
+                console.error('Error loading mealData:', error);
+                throw error;
+            })
         ]);
 
         // Filter for non-diabetic participants only
