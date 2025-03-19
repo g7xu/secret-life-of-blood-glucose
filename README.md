@@ -8,7 +8,7 @@
 ## Project Overview
 This visualization project explores blood glucose patterns across different diabetic groups using the CGMacros dataset.
 
-## Project Structure
+<!-- ## Project Structure
 [Project structure section to be added]
 
 ## Interactive Visualizations
@@ -44,7 +44,7 @@ Examining controlled breakfast and lunch responses:
 Create your own analysis:
 - Select variables
 - Compare groups
-- Investigate snack impacts
+- Investigate snack impacts -->
 
 ## Contributors
 Equal contributions by:
