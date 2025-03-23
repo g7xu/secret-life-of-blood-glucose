@@ -1409,7 +1409,7 @@ button:disabled {
 
 .special-shoutout h3 {
     color: var(--color-blue);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 10px;
     font-family: "DM Serif Text", serif;
 }
@@ -1434,7 +1434,7 @@ button:disabled {
 
 .team-member h3 {
     color: var(--color-blue);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 10px;
     font-family: "DM Serif Text", serif;
 }
