@@ -1396,6 +1396,37 @@ button:disabled {
     cursor: pointer;
 }
 
+.special-shoutout {
+    width: 25%; /* Reduce the width */
+    margin: 0 auto; /* Center the box */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+}
+
+.special-shoutout h3 {
+    color: var(--color-blue);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: "DM Serif Text", serif;
+}
+
+.special-shoutout p {
+    color: #333;
+    font-size: 1rem;
+    font-family: "Red Hat Text", sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.special-shoutout:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 .team-member:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
