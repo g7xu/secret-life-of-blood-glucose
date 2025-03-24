@@ -89,6 +89,47 @@ section {
   transform: translateY(0) !important;
 }
 
+/* Ensure the sections do not overflow horizontally */
+#intro, #question {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Ensure child elements do not overflow */
+#intro .mat, #question .dot {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Adjust the width of images inside the intro section */
+#intro img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjust the width of the plate and text inside the intro section */
+#intro .plate, #intro .text {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Adjust the width of the scroll indicator inside the intro section */
+#intro .scroll-indicator {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjust the width of the title inside the question section */
+#question #title {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* Navbar Styles */
 .navbar {
   width: 100%;
@@ -656,15 +697,13 @@ progress::-moz-progress-bar {
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 }
 
+/* the style for question section */
+
+/* style for white animated dot */
 .dot {
   stroke: white;
-  stroke-width: 1;
 }
 
-.dot:hover {
-  r: 6;
-  transition: r 0.2s;
-}
 
 .meal-dot {
   stroke-width: 1px;
